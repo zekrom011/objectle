@@ -51,3 +51,11 @@ Use Docker or `npm ci && npm run build`, then `npm start` on Render, Fly or Rail
 Before public launch, an evidence-law reviewer must approve the content and generate a production schedule. All generated scenarios begin reviewed:false; production deliberately refuses to serve them. Review flags and schema validation do not establish legal accuracy. Human review should check every scenario and near-duplicate patterns, especially difficult and No objection rulings.
 
 Educational game based on the Federal Rules of Evidence. Not legal advice. Rules vary by jurisdiction.
+
+## Download and recovery
+
+The source is backed up on the `main` branch at https://github.com/zekrom011/objectle. Use **Code → Download ZIP**, extract it, and follow [the step-by-step local guide](docs/download-and-run.md). Cloud environment scripts are setup instructions, not source backups.
+
+Verification of this rebuild: production bundle and TypeScript checks pass;17 unit/API tests and2 Chromium end-to-end tests pass. The900-entry content bank is an unreviewed editorial draft. Structural uniqueness and correct distributions do not establish legal accuracy or substantive diversity. See the content audit before public release.
+
+Browser tests use `/usr/bin/chromium` in this cloud environment. On another system, set `CHROMIUM_PATH` to your installed Chromium executable before `npm run test:e2e`.
