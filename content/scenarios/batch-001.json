@@ -1,0 +1,1778 @@
+[
+  {
+    "id": "obj-0001",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. The statement is offered for its truth; no exception applies.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What did the absent mechanic tell you later?"
+      },
+      {
+        "speaker": "A",
+        "text": "They said a ramp support split under a pallet."
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The absent nonparty’s assertion is offered for its truth without an exception. (FRE 802)",
+    "trap_note": "Hearing a statement firsthand does not make its factual assertion firsthand evidence.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0002",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. Authenticity is stipulated; the anonymous assertion is offered for its truth without an exception.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What did the anonymous note claim?"
+      },
+      {
+        "speaker": "A",
+        "text": "It claimed a ramp support split under a pallet."
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "An authenticated note can still contain inadmissible hearsay. (FRE 802)",
+    "trap_note": "Authentication resolves origin, not the hearsay issue.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0003",
+    "difficulty": "hard",
+    "setting": "Federal warehouse injury trial. Both speakers are absent nonparties; neither layer qualifies for an exception.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What did your colleague say their neighbor reported?"
+      },
+      {
+        "speaker": "A",
+        "text": "The colleague said the neighbor claimed a ramp support split under a pallet."
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 805",
+    "explanation": "Each hearsay layer needs an applicable exclusion or exception. (FRE 805)",
+    "trap_note": "An exception for only one layer would not cure the other.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0004",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. The observer personally saw the startling event and remained overwhelmed.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What did the observer shout immediately afterward?"
+      },
+      {
+        "speaker": "A",
+        "text": "Still shaking and crying, they shouted, \"a ramp support split under a pallet!\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 803(2)",
+    "explanation": "A statement about a startling event made under its stress qualifies as an excited utterance. (FRE 803(2))",
+    "trap_note": "The declarant need not be unavailable.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0005",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. The speaker personally perceived the event and described it without delay.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What did the observer say as it unfolded?"
+      },
+      {
+        "speaker": "A",
+        "text": "They described what they were watching: \"a ramp support split under a pallet.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 803(1)",
+    "explanation": "A contemporaneous description of a personally perceived event may be a present sense impression. (FRE 803(1))",
+    "trap_note": "Excitement is unnecessary for this exception.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0006",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. The statement is offered against its maker, a party to this case.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What did the opposing party admit to you?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"I caused the damage to a cracked steel support.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 801(d)(2)(A)",
+    "explanation": "An opposing party’s own statement offered against that party is excluded from hearsay. (FRE 801(d)(2)(A))",
+    "trap_note": "It need not have been against the speaker’s interest when made.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0007",
+    "difficulty": "hard",
+    "setting": "Federal warehouse injury trial. Counsel offers their own client’s denial for its truth; no exception applies.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What did your own client say afterward?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"I did nothing to damage a cracked steel support.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 801(d)(2)(A)",
+    "explanation": "A party cannot invoke the opposing-party exclusion to offer its own favorable statement. (FRE 801(d)(2)(A))",
+    "trap_note": "The exclusion requires offering the statement against the party who made it.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0008",
+    "difficulty": "hard",
+    "setting": "Federal warehouse injury trial. The employee is absent; assertions are offered for their truth, with authenticity conceded and no other exception.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "Why did the employee write this account?"
+      },
+      {
+        "speaker": "A",
+        "text": "Only because counsel requested a litigation report about a cracked steel support."
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 803(6)",
+    "explanation": "A narrative prepared solely for litigation does not become a business record merely by being filed. (FRE 803(6))",
+    "trap_note": "Routine storage is not the same as routine creation.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0009",
+    "difficulty": "hard",
+    "setting": "Federal warehouse injury trial. Offered to prove the remembered event, not mental condition; no other exception applies.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What did the witness say about the previous day?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"I remember that a ramp support split under a pallet.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 803(3)",
+    "explanation": "The state-of-mind exception generally does not admit a remembered fact to prove that fact. (FRE 803(3))",
+    "trap_note": "Present memory differs from present intention.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0010",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. The inspection’s reason is disputed; the warning is offered only for its effect on the listener.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "Why did you begin the inspection?"
+      },
+      {
+        "speaker": "A",
+        "text": "A caller warned me about a cracked steel support, so I went to inspect it."
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 801(c)(2)",
+    "explanation": "A warning offered only to explain relevant responsive conduct is not offered for its truth. (FRE 801(c)(2))",
+    "trap_note": "The jury must not use the warning to prove the alleged danger.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0011",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. The hobby has no connection to perception, identity, bias, damages, or any disputed fact.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What unrelated activity occupied your evening?"
+      },
+      {
+        "speaker": "A",
+        "text": "I was making a paper lighthouse."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401–402",
+    "explanation": "An unrelated personal activity does not make a consequential fact more or less probable. (FRE 401–402)",
+    "trap_note": "A harmless answer still needs a relevant purpose.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0012",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. The cousin is not involved and the collection has no bearing on any issue.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What did your distant cousin collect as a child?"
+      },
+      {
+        "speaker": "A",
+        "text": "Their collection consisted of marbles."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401–402",
+    "explanation": "An unrelated relative’s childhood collection proves no consequential fact here. (FRE 401–402)",
+    "trap_note": "Being easy to answer does not make a question relevant.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0013",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. The mechanism of the event is disputed; the witness personally observed it.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What did you observe yourself?"
+      },
+      {
+        "speaker": "A",
+        "text": "I watched the platform buckle while the pallet was stationary."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 401",
+    "explanation": "A firsthand observation bearing on the disputed mechanism has a tendency to prove a consequential fact. (FRE 401)",
+    "trap_note": "Relevant evidence need not settle the whole case.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0014",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. The lunchbox has no connection to identification, memory, credibility, or the events.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What was painted on your old school lunchbox?"
+      },
+      {
+        "speaker": "A",
+        "text": "A picture of a wooden birdhouse."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 402",
+    "explanation": "The unrelated lunchbox design has no bearing on this dispute. (FRE 402)",
+    "trap_note": "A memorable detail is not necessarily a relevant one.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0015",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. Childhood hobbies have no connection to the issues or any proper impeachment purpose.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What name did you give your childhood toy?"
+      },
+      {
+        "speaker": "A",
+        "text": "I called it Copper Kite."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401–402",
+    "explanation": "The unrelated toy’s name does not help establish any disputed consequential fact. (FRE 401–402)",
+    "trap_note": "Personal knowledge alone does not establish relevance.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0016",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. Offered solely as propensity; no character exception or character-as-element issue applies.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What is the defendant’s general reputation for care?"
+      },
+      {
+        "speaker": "A",
+        "text": "People describe the defendant as careless with property like a cracked steel support."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(a)(1)",
+    "explanation": "General character ordinarily cannot prove conduct in conformity on this occasion. (FRE 404(a)(1))",
+    "trap_note": "A negligence dispute does not automatically permit careless-character evidence.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0017",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. The proponent expressly offers the act only to show a disposition to damage property.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What unrelated property did the defendant damage years earlier?"
+      },
+      {
+        "speaker": "A",
+        "text": "A a knitted winter scarf, in an entirely separate incident."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(b)(1)",
+    "explanation": "A prior act cannot be used solely to show propensity to commit this act. (FRE 404(b)(1))",
+    "trap_note": "Another act needs a permitted nonpropensity purpose.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0018",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. Character is not an element; no exception applies and the sole purpose is propensity.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What is the plaintiff’s reputation for greed?"
+      },
+      {
+        "speaker": "A",
+        "text": "People call the plaintiff greedy about matters like a cracked steel support."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(a)(1)",
+    "explanation": "General character cannot ordinarily prove disputed conduct through propensity. (FRE 404(a)(1))",
+    "trap_note": "Disliking a party is not a permissible evidentiary purpose.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0019",
+    "difficulty": "hard",
+    "setting": "Federal warehouse injury trial. The other side offered untruthful-character testimony; the witness knows the relevant community.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "After the express attack on this witness’s honesty, what is their reputation?"
+      },
+      {
+        "speaker": "A",
+        "text": "The community regards the witness as consistently truthful."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 608(a)",
+    "explanation": "Truthful-character evidence may rehabilitate a witness after that character has been attacked. (FRE 608(a))",
+    "trap_note": "Mere contradiction would not necessarily open this door.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0020",
+    "difficulty": "hard",
+    "setting": "Federal warehouse injury trial. No conviction is involved; the document is authentic and relevant only to truthful character.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "Will you use this outside document to prove the witness lied before?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes; it records a false claim about a knitted winter scarf."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 608(b)",
+    "explanation": "Extrinsic evidence cannot prove a specific act solely to attack truthful character. (FRE 608(b))",
+    "trap_note": "Permission to ask about an act on cross does not authorize extrinsic proof.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0021",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. No attack on truthful character has occurred; the reputation foundation is otherwise adequate.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "Before any character attack, how honest is your witness?"
+      },
+      {
+        "speaker": "A",
+        "text": "Their reputation is exceptionally honest."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 608(a)",
+    "explanation": "Truthful-character evidence is admissible only after that character has been attacked. (FRE 608(a))",
+    "trap_note": "Calling a witness does not authorize advance character bolstering.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0022",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. The image is not self-authenticating and no other connecting evidence exists.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "How do you know this image depicts the disputed item?"
+      },
+      {
+        "speaker": "A",
+        "text": "Nobody can identify its source or connect it to a cracked steel support."
+      }
+    ],
+    "options": [
+      "Authentication",
+      "Lack of personal knowledge",
+      "Best evidence rule",
+      "No objection"
+    ],
+    "correct": "Authentication",
+    "rule": "FRE 901(a)",
+    "explanation": "An exhibit needs evidence sufficient to support that it is what the proponent claims. (FRE 901(a))",
+    "trap_note": "A useful-looking image still needs authentication.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0023",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. The witness is asked for a firsthand factual account, not an expert opinion.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "Did you perceive the event you are about to describe?"
+      },
+      {
+        "speaker": "A",
+        "text": "No; I was at a dental appointment and learned nothing firsthand."
+      }
+    ],
+    "options": [
+      "Authentication",
+      "Lack of personal knowledge",
+      "Best evidence rule",
+      "No objection"
+    ],
+    "correct": "Lack of personal knowledge",
+    "rule": "FRE 602",
+    "explanation": "A fact witness needs personal knowledge of the event described. (FRE 602)",
+    "trap_note": "Confidence cannot substitute for perception.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0024",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. No other evidence identifies the speaker; the relevant statement’s hearsay status is resolved.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "How do you recognize the recorded speaker?"
+      },
+      {
+        "speaker": "A",
+        "text": "I do not; I have never heard that voice outside this recording about a cracked steel support."
+      }
+    ],
+    "options": [
+      "Authentication",
+      "Lack of personal knowledge",
+      "Best evidence rule",
+      "No objection"
+    ],
+    "correct": "Authentication",
+    "rule": "FRE 901(b)(5)",
+    "explanation": "Voice identification requires a basis for recognizing the speaker. (FRE 901(b)(5))",
+    "trap_note": "An ordinary listener can identify a familiar voice, but familiarity is missing here.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0025",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. The appearance is relevant and the witness personally saw the depicted condition.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "Does this image accurately show what you saw?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes; it fairly depicts a cracked steel support at the time I observed it."
+      }
+    ],
+    "options": [
+      "Authentication",
+      "Lack of personal knowledge",
+      "Best evidence rule",
+      "No objection"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 901(b)(1)",
+    "explanation": "A witness with knowledge may authenticate a photograph as an accurate depiction. (FRE 901(b)(1))",
+    "trap_note": "The authenticating witness need not have taken the picture.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0026",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. No expert inference is requested; counsel seeks a direct factual account.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What happened inside the locked enclosure?"
+      },
+      {
+        "speaker": "A",
+        "text": "I could neither see nor hear inside, but I will describe what happened to a cracked steel support."
+      }
+    ],
+    "options": [
+      "Authentication",
+      "Lack of personal knowledge",
+      "Best evidence rule",
+      "No objection"
+    ],
+    "correct": "Lack of personal knowledge",
+    "rule": "FRE 602",
+    "explanation": "A witness cannot recount concealed events they did not perceive. (FRE 602)",
+    "trap_note": "Proximity does not establish knowledge of hidden events.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0027",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. The witness is offered only as a lay witness; no expert qualification or disclosure is made.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What does your technical stress calculation establish?"
+      },
+      {
+        "speaker": "A",
+        "text": "It identifies the precise failure mechanism of a cracked steel support."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Improper lay opinion",
+    "rule": "FRE 701(c)",
+    "explanation": "Specialized technical opinion cannot be supplied under the lay-opinion rule. (FRE 701(c))",
+    "trap_note": "Calling a conclusion firsthand does not avoid expert requirements.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0028",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. The witness personally observed the behavior; sobriety is relevant and no medical diagnosis is offered.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "How did the person appear when you observed them?"
+      },
+      {
+        "speaker": "A",
+        "text": "They stumbled and slurred words; they seemed intoxicated."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 701",
+    "explanation": "An ordinary impression of intoxication may be rationally based on firsthand observations. (FRE 701)",
+    "trap_note": "Not every opinion requires specialized expertise.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0029",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. The witness lacks clinical expertise and offers only a lay opinion.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What psychiatric diagnosis explains that behavior?"
+      },
+      {
+        "speaker": "A",
+        "text": "I diagnose a clinical disorder based on the argument over a cracked steel support."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Improper lay opinion",
+    "rule": "FRE 701(c)",
+    "explanation": "A psychiatric diagnosis requires specialized knowledge beyond ordinary lay opinion. (FRE 701(c))",
+    "trap_note": "Watching behavior does not qualify a layperson to diagnose it.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0030",
+    "difficulty": "hard",
+    "setting": "Federal warehouse injury trial. The data is admitted; the witness lacks scientific qualification and is offered only as a lay observer.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What does the laboratory spectrum establish?"
+      },
+      {
+        "speaker": "A",
+        "text": "It proves the chemical mechanism affecting a cracked steel support."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Improper lay opinion",
+    "rule": "FRE 701(c)",
+    "explanation": "Interpreting a scientific spectrum involves specialized knowledge outside lay opinion. (FRE 701(c))",
+    "trap_note": "Possessing laboratory data does not qualify someone to interpret it.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0031",
+    "difficulty": "hard",
+    "setting": "Federal warehouse injury trial. The witness supplies no explanatory observation and merely dictates the legal outcome.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "Who should win this case?"
+      },
+      {
+        "speaker": "A",
+        "text": "The party claiming damages for a cracked steel support should win."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Improper lay opinion",
+    "rule": "FRE 701(b)",
+    "explanation": "A bare verdict recommendation does not help the jury understand testimony or decide a fact. (FRE 701(b))",
+    "trap_note": "An ultimate-issue opinion must still satisfy the helpfulness requirement.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0032",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. Direct examination of a cooperative adult on a disputed substantive fact; no leading exception applies.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "You saw the defendant damage a cracked steel support, correct?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes."
+      }
+    ],
+    "options": [
+      "Leading question",
+      "Compound question",
+      "Argumentative",
+      "No objection"
+    ],
+    "correct": "Leading question",
+    "rule": "FRE 611(c)",
+    "explanation": "A question supplying the desired disputed answer is ordinarily improper on direct examination. (FRE 611(c))",
+    "trap_note": "A short answer is not the problem; the question suggests it.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0033",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. Cooperative adult witness on direct; visibility is disputed and no exception applies.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "The warning about a cracked steel support was plainly visible, wasn’t it?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes."
+      }
+    ],
+    "options": [
+      "Leading question",
+      "Compound question",
+      "Argumentative",
+      "No objection"
+    ],
+    "correct": "Leading question",
+    "rule": "FRE 611(c)",
+    "explanation": "Ordinary direct examination should not suggest the desired answer to a disputed fact. (FRE 611(c))",
+    "trap_note": "Leading questions may be proper on cross, but this is direct.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0034",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. Cross-examination within scope; the supported factual premise concerns the witness’s attention.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "You were looking at postcards when the event occurred, correct?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes."
+      }
+    ],
+    "options": [
+      "Leading question",
+      "Compound question",
+      "Argumentative",
+      "No objection"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 611(c)",
+    "explanation": "Leading questions are ordinarily permitted on proper cross-examination. (FRE 611(c))",
+    "trap_note": "Suggestive wording alone does not make cross-examination improper.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0035",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. Ordinary direct examination of a cooperative adult; no reason for leading is present.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "You never had permission to move a cracked steel support, did you?"
+      },
+      {
+        "speaker": "A",
+        "text": "No."
+      }
+    ],
+    "options": [
+      "Leading question",
+      "Compound question",
+      "Argumentative",
+      "No objection"
+    ],
+    "correct": "Leading question",
+    "rule": "FRE 611(c)",
+    "explanation": "Negative phrasing can still suggest the desired disputed answer on direct examination. (FRE 611(c))",
+    "trap_note": "The question’s form, not whether the answer is yes or no, makes it leading.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0036",
+    "difficulty": "hard",
+    "setting": "Federal warehouse injury trial. The original is available; no duplicate, exception, or opposing-party admission permits oral proof.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What exact obligation appears in the a load certificate?"
+      },
+      {
+        "speaker": "A",
+        "text": "It states, \"The ramp can carry eight hundred kilograms.\""
+      }
+    ],
+    "options": [
+      "Best evidence rule",
+      "Authentication",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Best evidence rule",
+    "rule": "FRE 1002",
+    "explanation": "Proving a writing’s contents ordinarily requires the original or an authorized substitute. (FRE 1002)",
+    "trap_note": "Remembering the words does not excuse production.",
+    "concept_tag": "best-evidence",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0037",
+    "difficulty": "hard",
+    "setting": "Federal warehouse injury trial. The original is available; no substitute or exception applies and hearsay is resolved.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What exact words appeared on the disputed notice?"
+      },
+      {
+        "speaker": "A",
+        "text": "The notice said, \"The ramp can carry eight hundred kilograms.\""
+      }
+    ],
+    "options": [
+      "Best evidence rule",
+      "Authentication",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Best evidence rule",
+    "rule": "FRE 1002",
+    "explanation": "Oral proof of a writing’s wording ordinarily requires a basis for dispensing with the writing. (FRE 1002)",
+    "trap_note": "Having read the notice does not itself excuse production.",
+    "concept_tag": "best-evidence",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0038",
+    "difficulty": "hard",
+    "setting": "Federal warehouse injury trial. The recording is available; no duplicate or exception authorizes oral proof.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the video show?"
+      },
+      {
+        "speaker": "A",
+        "text": "I saw only the video; it showed that a ramp support split under a pallet."
+      }
+    ],
+    "options": [
+      "Best evidence rule",
+      "Authentication",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Best evidence rule",
+    "rule": "FRE 1002",
+    "explanation": "Proof of a recording’s contents ordinarily requires the recording or an allowed substitute. (FRE 1002)",
+    "trap_note": "A witness who personally saw the event could describe it, but this witness saw only the recording.",
+    "concept_tag": "best-evidence",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0039",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. The court finds negligible additional value and an overwhelming risk of an improper emotional verdict.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "Why display the gruesome enlargement again?"
+      },
+      {
+        "speaker": "A",
+        "text": "It adds nothing about a cracked steel support beyond the admitted clear diagram."
+      }
+    ],
+    "options": [
+      "Unfair prejudice",
+      "Relevance",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Unfair prejudice",
+    "rule": "FRE 403",
+    "explanation": "Material may be excluded when unfair prejudice substantially outweighs its slight probative value. (FRE 403)",
+    "trap_note": "Evidence is not excluded merely because it harms a case.",
+    "concept_tag": "prejudice",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0040",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. The court expressly finds slight contextual value substantially outweighed by unfair prejudice.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "Why place a shocking unrelated image next to this exhibit?"
+      },
+      {
+        "speaker": "A",
+        "text": "To make the defendant look frightening in the dispute over a cracked steel support."
+      }
+    ],
+    "options": [
+      "Unfair prejudice",
+      "Relevance",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Unfair prejudice",
+    "rule": "FRE 403",
+    "explanation": "An overwhelmingly improper emotional effect can substantially outweigh slight contextual value. (FRE 403)",
+    "trap_note": "The concern is unfair influence, not ordinary persuasive force.",
+    "concept_tag": "prejudice",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0041",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. Extent of injury is stipulated; the court finds negligible added value and overwhelming emotional danger.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What useful information does the bloody close-up add?"
+      },
+      {
+        "speaker": "A",
+        "text": "None beyond the stipulated injury associated with a cracked steel support."
+      }
+    ],
+    "options": [
+      "Unfair prejudice",
+      "Relevance",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Unfair prejudice",
+    "rule": "FRE 403",
+    "explanation": "Needlessly inflammatory detail may be excluded when unfair prejudice substantially outweighs probative value. (FRE 403)",
+    "trap_note": "A relevant image is not automatically admissible in every presentation.",
+    "concept_tag": "prejudice",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0042",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. On cross, counsel substitutes an insult for a request for evidence.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "Why should anyone believe your ridiculous story about a cracked steel support?"
+      },
+      {
+        "speaker": "A",
+        "text": "I am trying to describe what I saw."
+      }
+    ],
+    "options": [
+      "Argumentative",
+      "Compound question",
+      "Asked and answered",
+      "No objection"
+    ],
+    "correct": "Argumentative",
+    "rule": "FRE 611(a)",
+    "explanation": "The court may stop insulting argument that seeks no additional evidentiary fact. (FRE 611(a))",
+    "trap_note": "Firm questioning does not require arguing with a witness.",
+    "concept_tag": "argumentative",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0043",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. Same examiner and fully answered question; no ambiguity, new evidence, or impeachment purpose.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "For the sixth identical time, was a cracked steel support intact?"
+      },
+      {
+        "speaker": "A",
+        "text": "As I have already answered five times, yes."
+      }
+    ],
+    "options": [
+      "Argumentative",
+      "Compound question",
+      "Asked and answered",
+      "No objection"
+    ],
+    "correct": "Asked and answered",
+    "rule": "FRE 611(a)",
+    "explanation": "The court may control needless repetition that wastes time. (FRE 611(a))",
+    "trap_note": "A relevant subject does not authorize unlimited identical questions.",
+    "concept_tag": "argumentative",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0044",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. Counsel demands one yes-or-no answer to three separately disputed facts.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "Did you inspect a cracked steel support, notify its owner, and repair it?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes to one of those, but not the others."
+      }
+    ],
+    "options": [
+      "Argumentative",
+      "Compound question",
+      "Asked and answered",
+      "No objection"
+    ],
+    "correct": "Compound question",
+    "rule": "FRE 611(a)",
+    "explanation": "Bundling distinct factual questions makes a single answer unclear. (FRE 611(a))",
+    "trap_note": "Each subject could be proper if asked separately.",
+    "concept_tag": "argumentative",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0045",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. No evidence or good-faith basis supports concealment; the question treats it as established.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "When did you stop concealing the damage to a cracked steel support?"
+      },
+      {
+        "speaker": "A",
+        "text": "I never concealed any damage."
+      }
+    ],
+    "options": [
+      "Assumes facts not in evidence",
+      "Compound question",
+      "Asked and answered",
+      "No objection"
+    ],
+    "correct": "Assumes facts not in evidence",
+    "rule": "FRE 611(a)",
+    "explanation": "A court may require a question that does not embed an unsupported disputed premise. (FRE 611(a))",
+    "trap_note": "The problem is the presupposed concealment, not forcefulness alone.",
+    "concept_tag": "argumentative",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0046",
+    "difficulty": "hard",
+    "setting": "Federal warehouse injury trial. Offered solely to show earlier negligence; no permitted alternative purpose applies.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What precaution was installed after this incident?"
+      },
+      {
+        "speaker": "A",
+        "text": "A new protective device addressing a cracked steel support."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Improper character evidence",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 407",
+    "explanation": "A subsequent precaution cannot prove negligence or culpable conduct in the earlier event. (FRE 407)",
+    "trap_note": "Ownership, control, or feasibility can matter, but none is disputed here.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0047",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. A disputed civil claim was being negotiated; no permitted alternative purpose is offered.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "How much did the defendant offer during settlement talks?"
+      },
+      {
+        "speaker": "A",
+        "text": "Half the disputed demand concerning a cracked steel support."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Improper character evidence",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 408(a)",
+    "explanation": "An offer to compromise a disputed claim cannot prove liability or the claim’s amount. (FRE 408(a))",
+    "trap_note": "A compromise offer is not an admissible admission of liability for this purpose.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0048",
+    "difficulty": "medium",
+    "setting": "Federal warehouse injury trial. Offered solely to establish negligence; no alternative permitted purpose applies.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "Did liability insurance cover this incident?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, the policy covered damage involving a cracked steel support."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Improper character evidence",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 411",
+    "explanation": "Liability insurance cannot prove negligent or wrongful conduct. (FRE 411)",
+    "trap_note": "Insurance may show bias or control in another setting, but neither is at issue here.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0049",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. The offer alone is introduced solely to establish liability.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "Did the defendant offer to pay medical expenses?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, after the incident involving a cracked steel support."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Improper character evidence",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 409",
+    "explanation": "An offer to pay medical expenses cannot prove liability for the injury. (FRE 409)",
+    "trap_note": "A separate admission of fault could differ, but none accompanies this offer.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "obj-0050",
+    "difficulty": "easy",
+    "setting": "Federal warehouse injury trial. Counsel requests direct factual testimony, not an expert inference.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What event is this dispute about?"
+      },
+      {
+        "speaker": "A",
+        "text": "A ramp support split under a pallet."
+      },
+      {
+        "speaker": "Q",
+        "text": "What did you personally see beneath the covering?"
+      },
+      {
+        "speaker": "A",
+        "text": "Nothing; a cracked steel support remained hidden during my entire visit."
+      }
+    ],
+    "options": [
+      "Authentication",
+      "Lack of personal knowledge",
+      "Best evidence rule",
+      "No objection"
+    ],
+    "correct": "Lack of personal knowledge",
+    "rule": "FRE 602",
+    "explanation": "A fact witness cannot describe a concealed feature without personal knowledge. (FRE 602)",
+    "trap_note": "Knowledge of an exterior does not establish knowledge of a hidden surface.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  }
+]
