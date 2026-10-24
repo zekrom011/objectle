@@ -56,6 +56,6 @@ Educational game based on the Federal Rules of Evidence. Not legal advice. Rules
 
 The source is backed up on the `main` branch at https://github.com/zekrom011/objectle. Use **Code → Download ZIP**, extract it, and follow [the step-by-step local guide](docs/download-and-run.md). Cloud environment scripts are setup instructions, not source backups.
 
-Verification of this rebuild: production bundle and TypeScript checks pass;17 unit/API tests and2 Chromium end-to-end tests pass. The900-entry content bank is an unreviewed editorial draft. Structural uniqueness and correct distributions do not establish legal accuracy or substantive diversity. See the content audit before public release.
+Verification of this rebuild: production bundle and TypeScript checks pass; 17 unit/API tests and 2 Chromium end-to-end tests pass. The 900-entry content bank is an unreviewed editorial draft. Structural uniqueness and correct distributions do not establish legal accuracy or substantive diversity. See the content audit before public release.
 
 Browser tests use `/usr/bin/chromium` in this cloud environment. On another system, set `CHROMIUM_PATH` to your installed Chromium executable before `npm run test:e2e`.
