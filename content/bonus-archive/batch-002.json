@@ -1,0 +1,870 @@
+[
+  {
+    "id": "bonus-0032",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns an unpaid invoice for window repairs. Both parties agree the workmanship was satisfactory, and only the payment date is disputed.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What color are the customer's bedroom curtains?"
+      },
+      {
+        "speaker": "A",
+        "text": "They're yellow, with little white flowers."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "The curtain color does not help decide when the invoice was paid.",
+    "trap_note": "A fact about the same customer is not necessarily relevant to the disputed issue.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0033",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a cyclist's damaged wheel. The parties dispute who entered the intersection first; the cyclist's unrelated food preferences are offered as proof of fault.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Does the cyclist eat meat?"
+      },
+      {
+        "speaker": "A",
+        "text": "No, she told us she only orders vegetarian food."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "Diet has no connection to who entered this intersection first.",
+    "trap_note": "A detail about a party needs a link to a fact that matters in the case.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0034",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a contractor's missed completion date. The only disputed issue is whether an extension was agreed, and counsel asks about an unrelated vacation years earlier.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Where did the contractor spend a holiday eight years ago?"
+      },
+      {
+        "speaker": "A",
+        "text": "He rented a cabin near a lake."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "The unrelated holiday does not make an agreed extension more or less likely.",
+    "trap_note": "Interesting background is not enough without a connection to the dispute.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0035",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a dented delivery truck. Both sides stipulate to the driver's identity and driving experience; counsel asks about a sibling's hobby.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What does the driver's sister collect?"
+      },
+      {
+        "speaker": "A",
+        "text": "Old postcards, mostly."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "The sister's collection has no bearing on the truck damage.",
+    "trap_note": "A family connection alone does not make a fact probative.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0036",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns the price of a used freezer. The only issue is what price the parties agreed, and counsel asks about the seller's favorite radio station.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Which station does the seller listen to at home?"
+      },
+      {
+        "speaker": "A",
+        "text": "Usually the jazz station."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "Radio preferences do not help establish the agreed sale price.",
+    "trap_note": "Evidence must connect to a consequential fact rather than merely describe a party.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0037",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a broken office chair. The parties dispute whether its base failed, and counsel asks about the witness's unrelated school mascot.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What was your high school's mascot?"
+      },
+      {
+        "speaker": "A",
+        "text": "A badger."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "The school mascot has no connection to the chair's condition or failure.",
+    "trap_note": "Background questions can still be excluded when they serve no relevant purpose.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0038",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a late delivery of cabinets. Counsel offers the supplier's unrelated sports allegiance to suggest it breached the contract.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Which team does the supplier's owner support?"
+      },
+      {
+        "speaker": "A",
+        "text": "The Harbor Owls. He has their scarf in his office."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "A sports allegiance does not tend to prove this delivery breach.",
+    "trap_note": "The scarf's visibility does not make the owner's preference legally relevant.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0039",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a rental deposit. Both sides agree the apartment's condition, and only the refund date is disputed.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How many houseplants does the tenant keep now?"
+      },
+      {
+        "speaker": "A",
+        "text": "Six, I think. They're on her kitchen shelf."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "The tenant's present houseplants do not help determine when the refund was sent.",
+    "trap_note": "A fact about a party's home needs a connection to the issue being tried.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0040",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns an incorrect bank transfer. The recipient's account identity is stipulated, and counsel offers the recipient's musical taste.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What kind of music does the recipient enjoy?"
+      },
+      {
+        "speaker": "A",
+        "text": "Mostly folk music."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "The recipient's musical taste does not help resolve whether the transfer was mistaken.",
+    "trap_note": "Identity is already agreed, and this preference proves no remaining disputed fact.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0041",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns whether a signed parcel arrived on Tuesday. Counsel offers an unrelated photograph of the courier's dog to explain nothing about the delivery.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What breed is the courier's dog?"
+      },
+      {
+        "speaker": "A",
+        "text": "A terrier."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "The dog's breed does not help establish the parcel's arrival date.",
+    "trap_note": "Evidence concerning the courier is not automatically evidence about the delivery.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0042",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a damaged sewing machine. The parties dispute whether it was packed correctly, and counsel asks about the buyer's unrelated garden ornament.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What stands beside the buyer's pond?"
+      },
+      {
+        "speaker": "A",
+        "text": "A stone frog."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "The ornament has no connection to how the machine was packed.",
+    "trap_note": "The buyer's possessions are relevant only if they help resolve a consequential fact.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0043",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns the number of chairs delivered to a hall. The buyer's later choice of holiday destination is offered without any connection to that count.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Where did the buyer go on holiday the following year?"
+      },
+      {
+        "speaker": "A",
+        "text": "A mountain village."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "The later trip does not help determine how many chairs were delivered.",
+    "trap_note": "A later event needs a logical connection to the disputed transaction.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0044",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a passenger injured by a braking bus. Counsel offers a distant relative's unrelated traffic ticket to prove the bus driver was careless.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Did the driver's uncle get a parking ticket last summer?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes. His car was outside a loading bay."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "The uncle's parking ticket does not establish how this driver operated the bus.",
+    "trap_note": "Conduct by a relative is not evidence of the driver's conduct here.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0045",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns the delivery of a promised blue sofa. Counsel asks about the shop owner's unrelated pet to establish the sofa's color.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What is the owner's cat called?"
+      },
+      {
+        "speaker": "A",
+        "text": "Marmalade."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "The cat's name does not make the delivered sofa's color more or less likely.",
+    "trap_note": "A memorable answer still needs a connection to the disputed fact.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0046",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a mistaken meter reading. Counsel offers the homeowner's unrelated chess ranking to prove the meter was inaccurate.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How highly is the homeowner ranked at chess?"
+      },
+      {
+        "speaker": "A",
+        "text": "She's the club champion."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "Chess ability does not help establish the accuracy of this meter reading.",
+    "trap_note": "General accomplishments do not prove a specific disputed measurement.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0047",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a broken stair rail. Counsel offers a neighbor's unrelated wedding expenses without connecting them to the property or injury.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How much did the neighbor spend on flowers for her wedding?"
+      },
+      {
+        "speaker": "A",
+        "text": "About eight hundred dollars."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "The wedding expense has no connection to the rail or injury.",
+    "trap_note": "A nearby person's finances are not relevant merely because the person is a neighbor.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0048",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a mechanic's disputed repair bill. The only question is whether a replacement pump was installed, and counsel asks about a receptionist's favorite film.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What film does the receptionist watch every winter?"
+      },
+      {
+        "speaker": "A",
+        "text": "A musical about sailors."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "The receptionist's film preference does not help prove whether the pump was installed.",
+    "trap_note": "An employee's personal preference does not establish the work performed.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0049",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns delivery of a cracked mirror. Counsel offers the recipient's unrelated tattoo to show when the crack appeared.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What tattoo is on the recipient's ankle?"
+      },
+      {
+        "speaker": "A",
+        "text": "A small compass."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "The tattoo does not help determine when the mirror cracked.",
+    "trap_note": "A physical detail about a party still requires a link to a material issue.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0050",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a delayed refund for train tickets. Counsel asks about the customer's childhood piano lessons without connecting them to the refund.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Did the customer learn piano as a child?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, for two years."
+      }
+    ],
+    "options": [
+      "Relevance",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Relevance",
+    "rule": "FRE 401",
+    "explanation": "Childhood lessons do not help establish whether the refund was timely.",
+    "trap_note": "Personal history is not automatically relevant background.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0051",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns an alleged minor shop theft. The prosecutor offers graphic photographs of an unrelated fatal accident solely to make the jury angry at the defendant.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What do these photographs show?"
+      },
+      {
+        "speaker": "A",
+        "text": "The wreck and the injured people from an accident that had nothing to do with this shop."
+      }
+    ],
+    "options": [
+      "Unfair prejudice",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Unfair prejudice",
+    "rule": "FRE 403",
+    "explanation": "The unrelated graphic material invites an emotional decision without useful proof of the charged theft.",
+    "trap_note": "Disturbing evidence needs a genuine probative purpose, not merely emotional force.",
+    "concept_tag": "prejudice",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0052",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a minor hand injury. Clear medical records and a photograph establish the injury; counsel proposes fifty nearly identical graphic close-ups solely to upset the jury.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How do these additional photographs differ?"
+      },
+      {
+        "speaker": "A",
+        "text": "They don't, really. It's the same wound from almost the same angle."
+      }
+    ],
+    "options": [
+      "Unfair prejudice",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Unfair prejudice",
+    "rule": "FRE 403",
+    "explanation": "The repetitive graphic images add little proof while creating a substantial risk of an emotional decision.",
+    "trap_note": "Relevant evidence may still be excluded when unfair prejudice substantially outweighs its value.",
+    "concept_tag": "prejudice",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0053",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns an alleged warehouse burglary. Counsel offers a shocking fictional reenactment that depicts violence no witness alleges, solely to make the defendant look dangerous.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Did any witness describe the attack shown in this video?"
+      },
+      {
+        "speaker": "A",
+        "text": "No. The filmmaker added it for dramatic effect."
+      }
+    ],
+    "options": [
+      "Unfair prejudice",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Unfair prejudice",
+    "rule": "FRE 403",
+    "explanation": "The invented violence risks misleading and inflaming the jury rather than proving the alleged burglary.",
+    "trap_note": "A presentation does not become reliable evidence merely because it is vivid.",
+    "concept_tag": "prejudice",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0054",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a disputed signature on a loan. Counsel offers a long video of unrelated personal suffering solely to draw sympathy for the borrower.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Does this video show the signing or anything about the loan?"
+      },
+      {
+        "speaker": "A",
+        "text": "No. It shows the borrower's unrelated medical treatment."
+      }
+    ],
+    "options": [
+      "Unfair prejudice",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Unfair prejudice",
+    "rule": "FRE 403",
+    "explanation": "The video invites a sympathetic decision on a question it does not help resolve.",
+    "trap_note": "Sympathy is not a substitute for proof about the signature.",
+    "concept_tag": "prejudice",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0055",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns a simple delivery delay. Counsel proposes to read thousands of identical tracking entries after the delivery date has been established, solely to overwhelm the jury.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Do any of these entries add a different delivery date?"
+      },
+      {
+        "speaker": "A",
+        "text": "No. They all repeat the same scan."
+      }
+    ],
+    "options": [
+      "Unfair prejudice",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Unfair prejudice",
+    "rule": "FRE 403",
+    "explanation": "The repetitive presentation needlessly consumes time and risks obscuring the straightforward issue.",
+    "trap_note": "Rule 403 also addresses cumulative evidence and wasted time, not just shocking images.",
+    "concept_tag": "prejudice",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0056",
+    "difficulty": "hard",
+    "setting": "A criminal trial concerns a stolen bicycle. Counsel offers a misleading enlargement that makes a small object appear weapon-sized, although no weapon is alleged.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Is this picture at the object's actual scale?"
+      },
+      {
+        "speaker": "A",
+        "text": "No. It's enlarged twenty times, and there's no scale shown."
+      }
+    ],
+    "options": [
+      "Unfair prejudice",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Unfair prejudice",
+    "rule": "FRE 403",
+    "explanation": "The misleading scale creates a substantial risk of confusion without corresponding evidentiary value.",
+    "trap_note": "A genuine photograph can still be presented in a misleading way.",
+    "concept_tag": "prejudice",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0057",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a fall on an unlit landing. A visitor describes the lighting she personally saw moments before the fall.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What could you see when you reached the landing?"
+      },
+      {
+        "speaker": "A",
+        "text": "Almost nothing. The ceiling light was out, and I used my phone to find the door."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 401",
+    "explanation": "The lighting shortly before the fall helps establish the condition alleged to have caused it.",
+    "trap_note": "Evidence need not conclusively prove negligence to be relevant.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0058",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a late furniture delivery. The dispatcher describes a contemporaneous schedule she personally prepared, with authenticity and any hearsay issue resolved by stipulation.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What delivery date did you put on that schedule?"
+      },
+      {
+        "speaker": "A",
+        "text": "Friday, the twelfth. That's the slot we reserved for this order."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 401",
+    "explanation": "The scheduled date tends to establish the delivery timing in dispute.",
+    "trap_note": "A single relevant piece of evidence need not resolve the whole contract claim.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0059",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns whether a worker could hear an alarm. The worker describes the noise at her station during the event.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What was it like beside the press that morning?"
+      },
+      {
+        "speaker": "A",
+        "text": "The press was pounding so loudly that we had to shout to each other."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 401",
+    "explanation": "The surrounding noise helps assess whether the alarm could be heard.",
+    "trap_note": "Context can be relevant even when it does not directly identify the cause of an accident.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0060",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a shop's notice of a loose tile. A customer describes her own earlier report to the manager, offered only to show notice.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did you tell the manager before the fall?"
+      },
+      {
+        "speaker": "A",
+        "text": "I said, \"That tile by the till rocks when you step on it.\""
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 801(c)",
+    "explanation": "The report is offered to show notice rather than to prove its description true.",
+    "trap_note": "A statement's purpose can make it nonhearsay even though it concerns a disputed condition.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0061",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns a disputed identification at dusk. A witness describes the distance from which she watched the person.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How far away were you when you saw the face?"
+      },
+      {
+        "speaker": "A",
+        "text": "About the width of this courtroom, with the streetlight behind him."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 401",
+    "explanation": "Distance and lighting help the jury evaluate the identification's reliability.",
+    "trap_note": "Evidence about a witness's opportunity to observe is relevant even without identifying the offender itself.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0062",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns alleged water damage after a pipe burst. The owner describes the floor immediately beforehand from personal observation.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What was the floor like when you left that morning?"
+      },
+      {
+        "speaker": "A",
+        "text": "Dry. I had just swept it, and there weren't any stains by the wall."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 401",
+    "explanation": "The earlier condition helps assess whether the later damage followed the pipe burst.",
+    "trap_note": "A comparison with the prior condition can be probative without being decisive.",
+    "concept_tag": "relevance",
+    "reviewed": false
+  }
+]

@@ -70,17 +70,13 @@ export const scenarioSchema = z
       c.addIssue({ code: "custom", message: "Transcript too long" });
   });
 export type Scenario = z.infer<typeof scenarioSchema>;
-export function loadContent() {
-  return (
-    fs.existsSync("content/scenarios")
-      ? fs.readdirSync("content/scenarios")
-      : []
-  )
-    .filter((f) => f.endsWith(".json"))
+export function loadContent(directory = "content/scenarios") {
+  return (fs.existsSync(directory) ? fs.readdirSync(directory) : [])
+    .filter((f) => f.endsWith(".json") && f !== "schedule.json")
     .flatMap((f) =>
       z
         .array(scenarioSchema)
-        .parse(JSON.parse(fs.readFileSync("content/scenarios/" + f, "utf8"))),
+        .parse(JSON.parse(fs.readFileSync(directory + "/" + f, "utf8"))),
     );
 }
 export function rng(seed: string) {
@@ -134,4 +130,60 @@ export function readSchedule(): Record<string, string[]> {
   return fs.existsSync("content/schedule/schedule.json")
     ? JSON.parse(fs.readFileSync("content/schedule/schedule.json", "utf8"))
     : {};
+}
+
+export function loadBonusContent() {
+  return loadContent("content/bonus-archive");
+}
+export function readBonusSchedule(): Record<string, string[]> {
+  const path = "content/bonus-archive/schedule.json";
+  if (!fs.existsSync(path)) return {};
+  return z
+    .record(z.array(z.string()).length(5))
+    .parse(JSON.parse(fs.readFileSync(path, "utf8")));
+}
+export function validateBonusDistribution(bonus: Scenario[]) {
+  const share =
+    bonus.filter((s) => s.correct === "No objection").length / bonus.length;
+  if (!bonus.length || share < 0.15 || share > 0.2)
+    throw Error("Bonus No objection share must be between 15% and 20%");
+  const counts = new Map<string, number>();
+  for (const scenario of bonus)
+    counts.set(
+      scenario.concept_tag,
+      (counts.get(scenario.concept_tag) || 0) + 1,
+    );
+  if ([...counts.values()].some((count) => count / bonus.length > 0.25))
+    throw Error("No bonus concept tag may exceed 25%");
+}
+
+export function validateBonusArchive() {
+  const bonus = loadBonusContent(),
+    daily = loadContent(),
+    schedule = readBonusSchedule();
+  const dates = Array.from(
+    { length: 31 },
+    (_, i) => `2026-10-${String(i + 1).padStart(2, "0")}`,
+  );
+  if (
+    bonus.length !== 155 ||
+    Object.keys(schedule).length !== 31 ||
+    dates.some((d) => !schedule[d])
+  )
+    throw Error(
+      "Bonus archive requires all 31 October dates and 155 scenarios",
+    );
+  const all = [...daily, ...bonus];
+  if (new Set(all.map((s) => s.id)).size !== all.length)
+    throw Error("Duplicate daily/bonus IDs");
+  if (new Set(all.map((s) => JSON.stringify(s.transcript))).size !== all.length)
+    throw Error("Duplicate daily/bonus transcripts");
+  const ids = Object.values(schedule).flat();
+  if (
+    new Set(ids).size !== 155 ||
+    ids.some((id) => !bonus.some((s) => s.id === id))
+  )
+    throw Error("Bonus schedule must use every bonus scenario exactly once");
+  validateBonusDistribution(bonus);
+  return bonus;
 }

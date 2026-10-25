@@ -1,0 +1,870 @@
+[
+  {
+    "id": "bonus-0125",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a delivery van's collision. On direct examination, counsel questions a cooperative adult eyewitness about a disputed signal; no special need for leading questions exists.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "The light was red when the van entered, wasn't it?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, it was red."
+      }
+    ],
+    "options": [
+      "Leading question",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Leading question",
+    "rule": "FRE 611(c)",
+    "explanation": "The question supplies the disputed answer to a cooperative witness on direct examination.",
+    "trap_note": "A yes-or-no form is not always leading, but this question expressly suggests the desired answer.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0126",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a wet shop floor. On direct examination of a cooperative adult witness, counsel suggests the disputed location of the spill.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "The puddle was right beside the freezer, correct?"
+      },
+      {
+        "speaker": "A",
+        "text": "That's right."
+      }
+    ],
+    "options": [
+      "Leading question",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Leading question",
+    "rule": "FRE 611(c)",
+    "explanation": "Counsel suggests the answer on a disputed matter during direct examination.",
+    "trap_note": "The witness's agreement does not remove the question's leading form.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0127",
+    "difficulty": "easy",
+    "setting": "A criminal trial concerns a stolen bicycle. The prosecutor directly examines a cooperative eyewitness and supplies the disputed color of the suspect's coat.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "He was wearing a yellow coat, wasn't he?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes."
+      }
+    ],
+    "options": [
+      "Leading question",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Leading question",
+    "rule": "FRE 611(c)",
+    "explanation": "The question directs the witness toward the prosecutor's desired answer on direct examination.",
+    "trap_note": "A detail that matters to identification should ordinarily come from the witness's own account.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0128",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a broken handrail. Counsel directly examines a cooperative witness and supplies the disputed condition of the bracket.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "The bracket was already loose before the fall, wasn't it?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, it was."
+      }
+    ],
+    "options": [
+      "Leading question",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Leading question",
+    "rule": "FRE 611(c)",
+    "explanation": "The question suggests the disputed fact during ordinary direct examination.",
+    "trap_note": "Being relevant does not make a leading question proper in this setting.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0129",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns an unpaid repair bill. Counsel directly examines a cooperative witness about a disputed conversation and feeds the witness the claimed promise.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "The customer promised to pay by Friday, didn't she?"
+      },
+      {
+        "speaker": "A",
+        "text": "She did."
+      }
+    ],
+    "options": [
+      "Leading question",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Leading question",
+    "rule": "FRE 611(c)",
+    "explanation": "The question puts the desired account of the promise into the witness's answer.",
+    "trap_note": "Direct examination normally asks the witness to supply disputed facts rather than merely confirm them.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0130",
+    "difficulty": "easy",
+    "setting": "A criminal trial concerns a warehouse entry. The prosecutor directly examines a cooperative guard and suggests the disputed time of arrival.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "The defendant arrived after midnight, correct?"
+      },
+      {
+        "speaker": "A",
+        "text": "Correct."
+      }
+    ],
+    "options": [
+      "Leading question",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Leading question",
+    "rule": "FRE 611(c)",
+    "explanation": "The question supplies the disputed arrival time on direct examination.",
+    "trap_note": "A concise question can still improperly suggest its answer.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0131",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a damaged instrument. On direct examination, counsel asks a cooperative adult witness to agree with the disputed manner of handling.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "The porter dropped the case onto the steps, didn't he?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes."
+      }
+    ],
+    "options": [
+      "Leading question",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Leading question",
+    "rule": "FRE 611(c)",
+    "explanation": "Counsel supplies the disputed action rather than asking the witness to describe it.",
+    "trap_note": "The issue is how the question guides this direct-examination witness.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0132",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a disputed parcel signature. Counsel directly examines a cooperative witness and suggests who held the pen.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "It was the receptionist who signed, wasn't it?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, the receptionist."
+      }
+    ],
+    "options": [
+      "Leading question",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Leading question",
+    "rule": "FRE 611(c)",
+    "explanation": "The question suggests the disputed identity of the signer on direct examination.",
+    "trap_note": "A witness's confident reply does not change the form of the question.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0133",
+    "difficulty": "easy",
+    "setting": "A criminal trial concerns a damaged lock. The prosecutor directly examines a cooperative witness and suggests the sound that was heard.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "You heard the lock snap before the door opened, didn't you?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes."
+      }
+    ],
+    "options": [
+      "Leading question",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Leading question",
+    "rule": "FRE 611(c)",
+    "explanation": "The question suggests the disputed sequence of events on direct examination.",
+    "trap_note": "An event sequence can be a leading suggestion just as an identity can.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0134",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a collision near a school. Counsel asks one question combining two distinct disputed observations, and the witness cannot tell which part to answer.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Did the car cross the center line and did the pedestrian step off the curb?"
+      },
+      {
+        "speaker": "A",
+        "text": "Do you mean the car or the pedestrian?"
+      }
+    ],
+    "options": [
+      "Compound question",
+      "Leading question",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Compound question",
+    "rule": "FRE 611(a)",
+    "explanation": "The question combines distinct factual inquiries that need separate answers.",
+    "trap_note": "The problem is the combined inquiries, not a suggested answer.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0135",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a contested delivery. Counsel combines receipt and later inspection into one question, leaving a single answer ambiguous.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Did you sign for the box and inspect the contents that afternoon?"
+      },
+      {
+        "speaker": "A",
+        "text": "I signed, but I'm not sure how to answer the rest."
+      }
+    ],
+    "options": [
+      "Compound question",
+      "Leading question",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Compound question",
+    "rule": "FRE 611(a)",
+    "explanation": "Separate acts should be asked about separately so the answer is clear.",
+    "trap_note": "A witness can agree with one part and disagree with another.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0136",
+    "difficulty": "easy",
+    "setting": "A criminal trial concerns a nighttime entry. Counsel combines two different people and actions in one question.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Did the guard leave his desk and did the cleaner unlock the rear door?"
+      },
+      {
+        "speaker": "A",
+        "text": "Which of them are you asking about?"
+      }
+    ],
+    "options": [
+      "Compound question",
+      "Leading question",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Compound question",
+    "rule": "FRE 611(a)",
+    "explanation": "The question joins separate acts by different people and invites an unclear answer.",
+    "trap_note": "A confusing combined question can be controlled under the court's examination authority.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0137",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a disputed refund. Counsel combines sending a message and receiving a payment into one question.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Did you email the shop and receive the refund on Monday?"
+      },
+      {
+        "speaker": "A",
+        "text": "I emailed Monday, but the refund came later."
+      }
+    ],
+    "options": [
+      "Compound question",
+      "Leading question",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Compound question",
+    "rule": "FRE 611(a)",
+    "explanation": "The question combines separate events whose timing may differ.",
+    "trap_note": "The witness's clarification illustrates why the inquiries should be separated.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0138",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns damaged stock. Counsel combines knowledge of a leak and a later decision into a single question.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Did you notice the leak and decide not to move the boxes?"
+      },
+      {
+        "speaker": "A",
+        "text": "I noticed it, but someone else decided where the boxes stayed."
+      }
+    ],
+    "options": [
+      "Compound question",
+      "Leading question",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Compound question",
+    "rule": "FRE 611(a)",
+    "explanation": "The question combines observation and a separate decision into one inquiry.",
+    "trap_note": "A clear record requires distinguishing what the witness saw from what the witness decided.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0139",
+    "difficulty": "easy",
+    "setting": "A criminal trial concerns a contested identification. The witness has answered the same question clearly three times, and counsel offers no new point before repeating it again.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Was the jacket blue?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes. As I said, it was blue."
+      }
+    ],
+    "options": [
+      "Asked and answered",
+      "Leading question",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Asked and answered",
+    "rule": "FRE 611(a)",
+    "explanation": "The court may stop repetitive questioning that adds nothing after a clear answer.",
+    "trap_note": "Cross-examination does not require unlimited repetition of an already answered question.",
+    "concept_tag": "argumentative",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0140",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a payment date. The witness has already answered this exact question several times without qualification, and counsel repeats it without a new purpose.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "On what date did you make the transfer?"
+      },
+      {
+        "speaker": "A",
+        "text": "The sixth. That's the date I've given you each time."
+      }
+    ],
+    "options": [
+      "Asked and answered",
+      "Leading question",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Asked and answered",
+    "rule": "FRE 611(a)",
+    "explanation": "The repeated question adds no new inquiry after a clear answer.",
+    "trap_note": "An unfavorable answer does not entitle counsel to repeat the question indefinitely.",
+    "concept_tag": "argumentative",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0141",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a disputed delivery location. The witness has plainly identified the same doorway several times, and counsel asks again without any changed premise.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Which door did the courier use?"
+      },
+      {
+        "speaker": "A",
+        "text": "The side door, just as I said before."
+      }
+    ],
+    "options": [
+      "Asked and answered",
+      "Leading question",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Asked and answered",
+    "rule": "FRE 611(a)",
+    "explanation": "The court may control needless repetition of an already resolved question.",
+    "trap_note": "Clarification differs from simply asking the same clear question again.",
+    "concept_tag": "argumentative",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0142",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns a witness's view of a doorway. After the witness describes the limited view, counsel delivers an accusation rather than seeking a factual answer.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Do you expect anyone here to believe that ridiculous story?"
+      },
+      {
+        "speaker": "A",
+        "text": "I'm telling you what I could see."
+      }
+    ],
+    "options": [
+      "Argumentative",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Argumentative",
+    "rule": "FRE 611(a)",
+    "explanation": "The question argues with and disparages the witness instead of seeking useful testimony.",
+    "trap_note": "Counsel may test perception through factual questions without making a speech at the witness.",
+    "concept_tag": "argumentative",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0143",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a disputed estimate. Counsel responds to the witness's explanation with a taunt rather than a request for facts.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "So we're all supposed to admire your amazing memory now?"
+      },
+      {
+        "speaker": "A",
+        "text": "No. I'm just explaining how I remember the figure."
+      }
+    ],
+    "options": [
+      "Argumentative",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Argumentative",
+    "rule": "FRE 611(a)",
+    "explanation": "The question is a rhetorical attack rather than a genuine request for evidence.",
+    "trap_note": "A credibility challenge should still be framed as a proper question.",
+    "concept_tag": "argumentative",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0144",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns an account of a journey. Counsel interrupts the witness with a sarcastic accusation that asks for no identifiable fact.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "That's a convenient fairy tale, isn't it?"
+      },
+      {
+        "speaker": "A",
+        "text": "It's what happened."
+      }
+    ],
+    "options": [
+      "Argumentative",
+      "Hearsay",
+      "Relevance",
+      "No objection"
+    ],
+    "correct": "Argumentative",
+    "rule": "FRE 611(a)",
+    "explanation": "The question substitutes counsel's argument for factual examination.",
+    "trap_note": "Disagreement with testimony is not itself a factual question.",
+    "concept_tag": "argumentative",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0145",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns the removal of a sign. Nothing in the evidence establishes that the witness removed it, but counsel's question treats that disputed act as settled.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Why did you take the warning sign down?"
+      },
+      {
+        "speaker": "A",
+        "text": "I didn't take it down."
+      }
+    ],
+    "options": [
+      "Assumes facts not in evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Assumes facts not in evidence",
+    "rule": "FRE 611(a)",
+    "explanation": "The question embeds an unestablished act as a premise the witness must accept to answer.",
+    "trap_note": "Counsel should first establish whether the witness removed the sign.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0146",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns a missing key. No evidence establishes that the witness hid it, but counsel presupposes concealment.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Where did you hide the spare key?"
+      },
+      {
+        "speaker": "A",
+        "text": "I never hid it."
+      }
+    ],
+    "options": [
+      "Assumes facts not in evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Assumes facts not in evidence",
+    "rule": "FRE 611(a)",
+    "explanation": "The question assumes the unestablished fact that the witness hid the key.",
+    "trap_note": "A question may test a disputed event without treating it as already proved.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0147",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns an altered invoice. No evidence connects the witness to an alteration, but counsel's question assumes the witness made one.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "When did you change the total on the invoice?"
+      },
+      {
+        "speaker": "A",
+        "text": "I didn't change any total."
+      }
+    ],
+    "options": [
+      "Assumes facts not in evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Assumes facts not in evidence",
+    "rule": "FRE 611(a)",
+    "explanation": "The question presupposes an alteration by this witness without establishing that premise.",
+    "trap_note": "Asking whether the witness made a change would avoid the unsupported assumption.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0148",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns entry into a locked shed. Nothing establishes that the witness forced the lock, but counsel asks why she did so.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Why did you break the lock instead of asking for a key?"
+      },
+      {
+        "speaker": "A",
+        "text": "I didn't break it."
+      }
+    ],
+    "options": [
+      "Assumes facts not in evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Assumes facts not in evidence",
+    "rule": "FRE 611(a)",
+    "explanation": "The question treats an unestablished act as an accepted fact.",
+    "trap_note": "The witness should not have to accept the accusation merely to answer the question.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0149",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a collision. Defense counsel is cross-examining the opposing eyewitness about the eyewitness's view.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "You were standing behind the parked van, weren't you?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, beside its rear bumper."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 611(c)",
+    "explanation": "Leading questions are ordinarily permitted on cross-examination.",
+    "trap_note": "The same form that may be improper on direct can be proper on cross.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0150",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns a disputed identification. Defense counsel cross-examines the prosecution witness about the lighting.",
+    "examiner": "defense attorney",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "The nearest streetlight was out, correct?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, that light wasn't working."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 611(c)",
+    "explanation": "Cross-examination ordinarily permits a question that suggests the answer.",
+    "trap_note": "A leading form alone is not a sound objection in ordinary cross-examination.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0151",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns an unpaid invoice. The plaintiff calls the defendant as an adverse party and asks a leading question about the defendant's signature.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "That's your signature at the bottom, isn't it?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, it's mine."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 611(c)(2)",
+    "explanation": "Leading questions are permitted when examining an adverse party.",
+    "trap_note": "An adverse party need not first be declared hostile to permit leading questions.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0152",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a broken window. On direct examination, counsel asks a cooperative witness an open question that does not supply the answer.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did you hear just before the glass broke?"
+      },
+      {
+        "speaker": "A",
+        "text": "A sharp scrape, then a crash."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 611(c)",
+    "explanation": "The question invites the witness's own account rather than suggesting a desired answer.",
+    "trap_note": "A question about a disputed event is not leading merely because it is focused.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0153",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns a shop entry. Counsel asks the eyewitness to clarify a word used in the immediately preceding answer.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "When you said the door was \"ajar,\" what did you mean?"
+      },
+      {
+        "speaker": "A",
+        "text": "It was open a few inches, enough to see light through the gap."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 611(a)",
+    "explanation": "A focused clarification helps make the testimony understandable.",
+    "trap_note": "Clarifying an ambiguous answer is different from needless repetition.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0154",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a damaged parcel. On cross-examination, counsel asks a single question about an issue raised on direct.",
+    "examiner": "defense counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "You never opened the box yourself, did you?"
+      },
+      {
+        "speaker": "A",
+        "text": "No, the customer opened it while I watched."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 611(b)-(c)",
+    "explanation": "The leading question properly tests the witness's account within the scope of direct examination.",
+    "trap_note": "Cross-examination may distinguish what a witness did from what the witness merely watched.",
+    "concept_tag": "leading",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0155",
+    "difficulty": "hard",
+    "setting": "A criminal trial concerns an alleged theft. With the court's permission, counsel asks a short neutral question to orient a young witness who is having trouble beginning.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Were you in the kitchen or the garden when you heard the noise?"
+      },
+      {
+        "speaker": "A",
+        "text": "In the kitchen, helping my grandmother."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 611(c)(1)",
+    "explanation": "The court may permit questions needed to develop a young witness's testimony.",
+    "trap_note": "The rule allows necessary assistance rather than imposing an absolute ban on leading questions.",
+    "concept_tag": "leading",
+    "reviewed": false
+  }
+]

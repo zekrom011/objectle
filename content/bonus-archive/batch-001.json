@@ -1,0 +1,870 @@
+[
+  {
+    "id": "bonus-0001",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a damaged rented piano. A neighbor repeats a nonparty delivery driver\u2019s casual remark to prove who dropped it; the driver was not employed by either party.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the driver tell you that afternoon?"
+      },
+      {
+        "speaker": "A",
+        "text": "He said, \"Mara dropped the piano off the lift.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The driver's out-of-court assertion is offered to prove Mara dropped the piano.",
+    "trap_note": "Personally hearing the remark does not establish that its accusation is true.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0002",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns missing wedding photographs. The photographer's friend repeats an absent guest's description to prove the camera was stolen.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the guest say happened to the camera?"
+      },
+      {
+        "speaker": "A",
+        "text": "She told me a man in a green coat took it."
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The guest's account is an out-of-court assertion offered for its truth.",
+    "trap_note": "The friend may know what was said without knowing who took the camera.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0003",
+    "difficulty": "easy",
+    "setting": "A criminal theft trial concerns a missing bronze bell. An officer repeats a calm anonymous tip to prove the defendant sold it; no other use is offered.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the caller tell you?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"Oren sold that bell at the river market.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The anonymous accusation cannot prove the sale merely by being repeated by an officer.",
+    "trap_note": "The officer's official position does not create a hearsay exception.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0004",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a collapsed deck. A visitor recounts a nonparty carpenter\u2019s later guess to establish that bolts were missing; the carpenter had no role in building the deck.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the carpenter say caused the collapse?"
+      },
+      {
+        "speaker": "A",
+        "text": "He said, \"They must have left out half the bolts.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The carpenter's later assertion is offered as proof of the missing bolts.",
+    "trap_note": "A witness cannot turn another person's assertion into admissible testimony by quoting it.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0005",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a scratched display case. A shopper repeats a friend's account the next week to prove that an employee used a metal scraper.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did your friend tell you about the scratch?"
+      },
+      {
+        "speaker": "A",
+        "text": "She said the clerk dragged a scraper right across the glass."
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The friend's later account is being offered for the truth of what it describes.",
+    "trap_note": "Relevance to the scratch does not resolve hearsay.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0006",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a leaking roof. An authenticated customer comment is offered to prove that the installer skipped the flashing, and no exception is established.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What does this comment say?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"The crew never put flashing around the chimney.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "Authenticating a comment does not make its factual assertion admissible for its truth.",
+    "trap_note": "Knowing who wrote a statement solves a different problem from hearsay.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0007",
+    "difficulty": "hard",
+    "setting": "A criminal trial concerns a forged parking permit. An investigator repeats a colleague's account of what a guard said to prove the defendant printed it.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did your colleague report?"
+      },
+      {
+        "speaker": "A",
+        "text": "She said the guard told her, \"I watched Niko print that permit.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 805",
+    "explanation": "Both layers of this account need an applicable hearsay exception, and neither has one here.",
+    "trap_note": "A second retelling does not erase the first layer of hearsay.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0008",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns a spoiled shipment. A business log records an outside tourist's unverified statement about the truck's refrigeration.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What does the log report?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"Visitor says the driver switched the cooler off before leaving.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 805",
+    "explanation": "The business record exception does not automatically cover the outside visitor's embedded statement.",
+    "trap_note": "A regularly kept document can still contain a separate hearsay layer.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0009",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a stolen painting. A witness repeats a voicemail from an absent friend to prove the gallery owner hid it.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the voicemail say?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"I saw the owner put the painting in her car yesterday.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The friend's recorded assertion is offered to prove the owner's conduct.",
+    "trap_note": "Recording a statement does not itself make it admissible.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0010",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a tenant's broken window. A neighbor repeats a child's statement made calmly two days later to prove who threw the stone.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the child tell you on Monday?"
+      },
+      {
+        "speaker": "A",
+        "text": "He said, \"My cousin threw the stone on Saturday.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The child's later account is an out-of-court assertion offered for its truth.",
+    "trap_note": "Youth alone supplies no hearsay exception.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0011",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns disputed overtime. A worker repeats another employee's personal estimate, made outside any job responsibility, to establish the hours worked.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did your coworker say about your hours?"
+      },
+      {
+        "speaker": "A",
+        "text": "She told me, \"You probably worked fifty hours that week.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The coworker's outside estimate is offered as proof of the hours without an applicable exception.",
+    "trap_note": "Not every statement by an employee concerns a matter within the scope of employment.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0012",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns damage to a kayak. A witness repeats a repair customer's casual opinion to prove the owner caused the crack.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the customer say while you waited?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"The owner must have dragged it over rocks.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The customer's out-of-court explanation is offered to establish how the crack happened.",
+    "trap_note": "An opinion can be a hearsay assertion just as a factual description can.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0013",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a dented elevator door. A witness quotes an absent resident's signed letter to identify the mover responsible.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the resident write?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"I watched the mover ram the trolley into the door.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The signed letter contains an out-of-court assertion offered for its truth.",
+    "trap_note": "A signature establishes authorship rather than a hearsay exception.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0014",
+    "difficulty": "easy",
+    "setting": "A criminal trial concerns stolen laboratory equipment. A witness repeats what an absent student claimed in a private message to prove the theft.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the message say?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"I saw Devin leave with the microscope under his jacket.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The message is an out-of-court assertion offered to prove Devin took the microscope.",
+    "trap_note": "A private message is still a statement under the hearsay rules.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0015",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns a damaged greenhouse. A witness repeats a nonparty contractor\u2019s account of what an assistant said, offered to prove the tenant unplugged the heater; neither speaker worked for a party.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the contractor tell you?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"My assistant says the tenant pulled the heater's plug.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 805",
+    "explanation": "Each speaker's assertion needs its own basis for admission, and none is established.",
+    "trap_note": "The contractor's experience does not cure a secondhand factual account.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0016",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns a missing cash deposit. A manager offers a routine incident report containing an unknown caller's accusation, solely to prove the accusation.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Read the caller's statement in your report."
+      },
+      {
+        "speaker": "A",
+        "text": "\"The cashier kept the deposit in her coat pocket.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 805",
+    "explanation": "A routine report does not automatically admit an unknown caller's accusation for its truth.",
+    "trap_note": "The report's business purpose does not establish the caller's reliability.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0017",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns a damaged sculpture. An owner's friend recounts the owner's self-serving statement, offered by that same owner to deny responsibility.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the owner tell you afterward?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"I never touched the sculpture; it fell by itself.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 801(d)(2)",
+    "explanation": "A party cannot use the opposing-party rule to introduce that party's own statement in support of the party's case.",
+    "trap_note": "The opposing-party exclusion applies when the statement is offered against its speaker's side.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0018",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns a signed delivery receipt. The receipt's note about an absent bystander's observation is offered to prove the parcel was opened.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What does the handwritten note say?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"A bystander told me the courier opened the parcel on the street.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 805",
+    "explanation": "The bystander's assertion remains a separate hearsay layer even if the receipt itself qualifies as a record.",
+    "trap_note": "One admissible layer does not automatically admit every statement inside it.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0019",
+    "difficulty": "hard",
+    "setting": "A criminal trial concerns a warehouse alarm. A witness recounts an absent acquaintance's later story to prove the defendant disabled it.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did your acquaintance say last month?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"Tavi told me he saw the defendant cut the alarm wire.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 805",
+    "explanation": "This retelling contains two unsupported hearsay layers.",
+    "trap_note": "Repeating a named source is not the same as presenting that source's testimony.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0020",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a disputed fence line. A party offers a recent email from an absent surveyor as proof of the boundary, without qualifying it as a record or expert testimony.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the surveyor write to you?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"The fence sits two feet inside your parcel.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The email's boundary assertion is offered for its truth without a demonstrated exception.",
+    "trap_note": "Professional expertise alone does not exempt an out-of-court statement from hearsay rules.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0021",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns spoiled flowers. A florist repeats a customer's casual remark to establish the van's temperature.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the customer tell you?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"That van was warmer than my kitchen when they opened it.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The customer's assertion about temperature is offered for its truth.",
+    "trap_note": "Sensory descriptions can still be hearsay when repeated by someone else.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0022",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a missing tool chest. A witness quotes an absent mechanic's note to establish that a particular truck carried it away.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the note say?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"I saw your chest in the back of the orange truck.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The mechanic's written observation is an out-of-court statement offered for its truth.",
+    "trap_note": "The note's specificity does not supply an exception.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0023",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns an injury on a staircase. A witness repeats a building visitor's calm account a week later to prove a step was loose.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the visitor tell you afterward?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"The third step moved when I stood on it.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The visitor's later description is offered to prove the condition of the step.",
+    "trap_note": "A statement about a relevant condition is not automatically admissible.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0024",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a late parcel. A witness quotes an absent neighbor's social-media post to establish the delivery time.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What time did the post say the courier arrived?"
+      },
+      {
+        "speaker": "A",
+        "text": "It said, \"The courier finally came at ten last night.\""
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 802",
+    "explanation": "The post's factual assertion is offered for its truth.",
+    "trap_note": "Public availability does not create a hearsay exception.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0025",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns a contaminated tank. A supervisor repeats a rumor passed through two unnamed workers to prove who poured solvent into it.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How did you hear who filled the tank?"
+      },
+      {
+        "speaker": "A",
+        "text": "One worker said another worker had seen Jules pour solvent in."
+      }
+    ],
+    "options": [
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Hearsay",
+    "rule": "FRE 805",
+    "explanation": "Each out-of-court assertion needs an admissible basis, which this chain of rumor lacks.",
+    "trap_note": "The number of people repeating an accusation does not make it firsthand evidence.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0026",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a bicycle collision. The plaintiff offers the defendant cyclist's own words against the cyclist.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the cyclist say when you spoke?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"I was looking at my phone when I hit you.\""
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 801(d)(2)(A)",
+    "explanation": "The cyclist's own statement may be offered against that cyclist as an opposing-party statement.",
+    "trap_note": "The speaker need not have intended to make a legal admission.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0027",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a fire at a pottery studio. A visitor describes what an injured worker cried out while flames were still spreading.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the worker shout as you helped her out?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"The kiln just burst into flames!\""
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 803(2)",
+    "explanation": "The statement describes the startling fire while the worker was still under its stress.",
+    "trap_note": "An excited utterance can be admitted even when the speaker is available to testify.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0028",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a flooded cellar. A witness repeats a warning only to explain why she moved the stored paintings, not to prove water was present.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Why did you move the paintings upstairs?"
+      },
+      {
+        "speaker": "A",
+        "text": "A neighbor called, \"There's water coming under your door!\""
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 801(c)",
+    "explanation": "The warning is offered for its effect on the listener rather than to prove the warning true.",
+    "trap_note": "A quoted statement is not hearsay when its truth is not the point of offering it.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0029",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a restaurant burn. A treating nurse recounts the patient's description of symptoms given to obtain treatment.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the patient tell you during the examination?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"My hand burns, and I can't bend these two fingers.\""
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 803(4)",
+    "explanation": "The symptom description was made for medical treatment and was pertinent to that treatment.",
+    "trap_note": "The medical-treatment exception covers pertinent symptoms as well as some accounts of their cause.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0030",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns a boat departure. A dock worker describes the passenger's statement of a current travel plan, offered to show the passenger's intent at that moment.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the passenger say before leaving the desk?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"I'm taking the noon ferry to the island.\""
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 803(3)",
+    "explanation": "The statement expresses a then-existing plan rather than a memory of a past event.",
+    "trap_note": "The exception distinguishes current intent from a backward-looking factual claim.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0031",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a collision outside a caf\u00e9. A witness repeats what her companion said while watching the vehicles approach.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did your companion say as you both watched?"
+      },
+      {
+        "speaker": "A",
+        "text": "\"That blue car is coming into our lane right now.\""
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 803(1)",
+    "explanation": "The statement describes an event while the speaker was perceiving it.",
+    "trap_note": "A present-sense impression need not involve an excited or frightened speaker.",
+    "concept_tag": "hearsay",
+    "reviewed": false
+  }
+]

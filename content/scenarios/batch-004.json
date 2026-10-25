@@ -2,24 +2,16 @@
   {
     "id": "obj-0151",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. The statement is offered for its truth; no exception applies.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel wants the jury to believe the mechanic’s account of what happened. The mechanic is not a party, and none of the hearsay exceptions applies.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "When you spoke afterward, what did the mechanic tell you about the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What did the absent mechanic tell you later?"
-      },
-      {
-        "speaker": "A",
-        "text": "They said rain entered an unsealed freight container."
+        "text": "They told me, “Rain entered an unsealed freight container.”"
       }
     ],
     "options": [
@@ -38,24 +30,16 @@
   {
     "id": "obj-0152",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. Authenticity is stipulated; the anonymous assertion is offered for its truth without an exception.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Both sides accept that the note is genuine. Counsel wants its unsigned account accepted as true, but no hearsay exception applies.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What did the unsigned note say about the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What did the anonymous note claim?"
-      },
-      {
-        "speaker": "A",
-        "text": "It claimed rain entered an unsealed freight container."
+        "text": "It said, “Rain entered an unsealed freight container.”"
       }
     ],
     "options": [
@@ -74,24 +58,16 @@
   {
     "id": "obj-0153",
     "difficulty": "hard",
-    "setting": "Federal delivery dispute trial. Both speakers are absent nonparties; neither layer qualifies for an exception.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The witness is repeating a colleague’s account of what a neighbor said. Neither speaker is a party, and neither statement falls within a hearsay exception.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What did your colleague tell you they had heard about the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What did your colleague say their neighbor reported?"
-      },
-      {
-        "speaker": "A",
-        "text": "The colleague said the neighbor claimed rain entered an unsealed freight container."
+        "text": "They said their neighbor told them, “Rain entered an unsealed freight container.”"
       }
     ],
     "options": [
@@ -110,24 +86,16 @@
   {
     "id": "obj-0154",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. The observer personally saw the startling event and remained overwhelmed.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The person who shouted saw the incident firsthand and was still frightened and overwhelmed when they spoke.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What did you hear the person beside the paper lamps shout?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What did the observer shout immediately afterward?"
-      },
-      {
-        "speaker": "A",
-        "text": "Still shaking and crying, they shouted, \"rain entered an unsealed freight container!\""
+        "text": "They were shaking and crying. They shouted, “Rain entered an unsealed freight container.”"
       }
     ],
     "options": [
@@ -146,24 +114,16 @@
   {
     "id": "obj-0155",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. The speaker personally perceived the event and described it without delay.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The person speaking was watching the incident and described it as it happened.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What did the person watching the paper lamps say as it happened?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What did the observer say as it unfolded?"
-      },
-      {
-        "speaker": "A",
-        "text": "They described what they were watching: \"rain entered an unsealed freight container.\""
+        "text": "They said, “Rain entered an unsealed freight container.” They were describing it right then."
       }
     ],
     "options": [
@@ -182,24 +142,16 @@
   {
     "id": "obj-0156",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. The statement is offered against its maker, a party to this case.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The plaintiff is introducing the defendant’s own statement against the defendant.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What did the defendant tell you about the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What did the opposing party admit to you?"
-      },
-      {
-        "speaker": "A",
-        "text": "\"I caused the damage to wet cartons of paper lamps.\""
+        "text": "“I left the container open in the rain.”"
       }
     ],
     "options": [
@@ -218,24 +170,16 @@
   {
     "id": "obj-0157",
     "difficulty": "hard",
-    "setting": "Federal delivery dispute trial. Counsel offers their own client’s denial for its truth; no exception applies.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel wants to use their own client’s earlier denial to prove the client was not responsible. No hearsay exception applies.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What did my client tell you about the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What did your own client say afterward?"
-      },
-      {
-        "speaker": "A",
-        "text": "\"I did nothing to damage wet cartons of paper lamps.\""
+        "text": "“I had nothing to do with what happened.”"
       }
     ],
     "options": [
@@ -254,24 +198,16 @@
   {
     "id": "obj-0158",
     "difficulty": "hard",
-    "setting": "Federal delivery dispute trial. The employee is absent; assertions are offered for their truth, with authenticity conceded and no other exception.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel offers an absent employee’s report to prove what happened. Both sides agree the report is genuine; apart from the business-records argument, no hearsay exception applies.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "Why was this report about the paper lamps written?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "Why did the employee write this account?"
-      },
-      {
-        "speaker": "A",
-        "text": "Only because counsel requested a litigation report about wet cartons of paper lamps."
+        "text": "The lawyer asked for it after the lawsuit started. We do not normally make reports like this."
       }
     ],
     "options": [
@@ -290,24 +226,16 @@
   {
     "id": "obj-0159",
     "difficulty": "hard",
-    "setting": "Federal delivery dispute trial. Offered to prove the remembered event, not mental condition; no other exception applies.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel wants this earlier statement accepted as proof that the incident happened, rather than as evidence of how the speaker felt. No other hearsay exception applies.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What did your colleague say the next day about the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What did the witness say about the previous day?"
-      },
-      {
-        "speaker": "A",
-        "text": "\"I remember that rain entered an unsealed freight container.\""
+        "text": "“I remember it clearly. Rain entered an unsealed freight container.”"
       }
     ],
     "options": [
@@ -326,24 +254,16 @@
   {
     "id": "obj-0160",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. The inspection’s reason is disputed; the warning is offered only for its effect on the listener.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The jury needs to know why the witness started an inspection. The warning is offered only to explain that decision, not to prove the warning was true.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What made you go and look at the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "Why did you begin the inspection?"
-      },
-      {
-        "speaker": "A",
-        "text": "A caller warned me about wet cartons of paper lamps, so I went to inspect it."
+        "text": "Someone called to warn me about it. That is why I went over to check."
       }
     ],
     "options": [
@@ -362,20 +282,12 @@
   {
     "id": "obj-0161",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. The hobby has no connection to perception, identity, bias, damages, or any disputed fact.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The hobby does not help explain what happened, what the witness could see, or whether the witness has a reason to lie.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
-      },
-      {
-        "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What unrelated activity occupied your evening?"
+        "text": "After your work with the paper lamps, what hobby did you spend the evening on?"
       },
       {
         "speaker": "A",
@@ -398,20 +310,12 @@
   {
     "id": "obj-0162",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. The cousin is not involved and the collection has no bearing on any issue.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The cousin had no involvement in the events. Their childhood collection has no connection to any disputed issue.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
-      },
-      {
-        "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What did your distant cousin collect as a child?"
+        "text": "You have told us about the paper lamps, what did your cousin collect as a child?"
       },
       {
         "speaker": "A",
@@ -434,20 +338,12 @@
   {
     "id": "obj-0163",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. The mechanism of the event is disputed; the witness personally observed it.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The parties disagree about how the incident happened. This witness was there and watched it happen.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
-      },
-      {
-        "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What did you observe yourself?"
+        "text": "What did you see happen to the paper lamps?"
       },
       {
         "speaker": "A",
@@ -470,20 +366,12 @@
   {
     "id": "obj-0164",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. The lunchbox has no connection to identification, memory, credibility, or the events.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The school lunchbox has no connection to the incident, the witness’s memory, or any other issue in the case.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
-      },
-      {
-        "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What was painted on your old school lunchbox?"
+        "text": "Apart from the paper lamps, what picture was on your school lunchbox?"
       },
       {
         "speaker": "A",
@@ -506,20 +394,12 @@
   {
     "id": "obj-0165",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. Childhood hobbies have no connection to the issues or any proper impeachment purpose.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The childhood toy has no connection to the dispute and does not help test the witness’s honesty or memory.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
-      },
-      {
-        "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What name did you give your childhood toy?"
+        "text": "One more question after your account of the paper lamps: what did you name your childhood toy?"
       },
       {
         "speaker": "A",
@@ -542,24 +422,16 @@
   {
     "id": "obj-0166",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. Offered solely as propensity; no character exception or character-as-element issue applies.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel wants the jury to conclude that the defendant acted carelessly this time because the defendant is generally careless. Character itself is not an issue, and no character-evidence exception applies.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "In general, what reputation does the defendant have for taking care of things like the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What is the defendant’s general reputation for care?"
-      },
-      {
-        "speaker": "A",
-        "text": "People describe the defendant as careless with property like wet cartons of paper lamps."
+        "text": "People who know them say they are careless."
       }
     ],
     "options": [
@@ -578,24 +450,16 @@
   {
     "id": "obj-0167",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. The proponent expressly offers the act only to show a disposition to damage property.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel offers an unrelated earlier incident only to suggest that the defendant is the sort of person who damages property.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "Before this dispute about the paper lamps, did the defendant damage something else?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What unrelated property did the defendant damage years earlier?"
-      },
-      {
-        "speaker": "A",
-        "text": "A a stained-glass sun, in an entirely separate incident."
+        "text": "A stained-glass sun, in a separate incident years ago."
       }
     ],
     "options": [
@@ -614,24 +478,16 @@
   {
     "id": "obj-0168",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. Character is not an element; no exception applies and the sole purpose is propensity.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel wants the jury to decide this dispute based on the plaintiff’s supposedly greedy personality. Character itself is not an issue, and no exception permits this use.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "In this dispute about the paper lamps, what do people generally say about the plaintiff’s attitude to money?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What is the plaintiff’s reputation for greed?"
-      },
-      {
-        "speaker": "A",
-        "text": "People call the plaintiff greedy about matters like wet cartons of paper lamps."
+        "text": "That the plaintiff is greedy."
       }
     ],
     "options": [
@@ -650,24 +506,16 @@
   {
     "id": "obj-0169",
     "difficulty": "hard",
-    "setting": "Federal delivery dispute trial. The other side offered untruthful-character testimony; the witness knows the relevant community.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The other side has already introduced testimony attacking a witness’s reputation for honesty. The person now testifying knows that witness’s community well.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "You know the witness who testified about the paper lamps. What is their reputation for telling the truth?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "After the express attack on this witness’s honesty, what is their reputation?"
-      },
-      {
-        "speaker": "A",
-        "text": "The community regards the witness as consistently truthful."
+        "text": "People in our community consider them honest."
       }
     ],
     "options": [
@@ -686,24 +534,16 @@
   {
     "id": "obj-0170",
     "difficulty": "hard",
-    "setting": "Federal delivery dispute trial. No conviction is involved; the document is authentic and relevant only to truthful character.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel wants to prove an earlier lie using a separate document. The document is genuine, but the lie has no relevance beyond honesty and did not result in a criminal conviction.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "Does this document prove that the witness who described the paper lamps lied on another occasion?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "Will you use this outside document to prove the witness lied before?"
-      },
-      {
-        "speaker": "A",
-        "text": "Yes; it records a false claim about a stained-glass sun."
+        "text": "Yes. It records a false claim they made."
       }
     ],
     "options": [
@@ -722,24 +562,16 @@
   {
     "id": "obj-0171",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. No attack on truthful character has occurred; the reputation foundation is otherwise adequate.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Nobody has attacked Evan Cole’s reputation for honesty. The person now testifying knows that witness’s community well.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What is Evan Cole’s reputation for honesty in your community?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "Before any character attack, how honest is your witness?"
-      },
-      {
-        "speaker": "A",
-        "text": "Their reputation is exceptionally honest."
+        "text": "Everyone I know considers them truthful."
       }
     ],
     "options": [
@@ -758,24 +590,16 @@
   {
     "id": "obj-0172",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. The image is not self-authenticating and no other connecting evidence exists.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel wants to introduce a photograph, but there is no other witness or evidence establishing what it shows.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "Can you tell us whether this photograph shows the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "How do you know this image depicts the disputed item?"
-      },
-      {
-        "speaker": "A",
-        "text": "Nobody can identify its source or connect it to wet cartons of paper lamps."
+        "text": "No. I do not know who took it or where it came from."
       }
     ],
     "options": [
@@ -794,24 +618,16 @@
   {
     "id": "obj-0173",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. The witness is asked for a firsthand factual account, not an expert opinion.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The witness was at a dental appointment throughout the incident and has no firsthand knowledge of it. Counsel nevertheless asks them to describe what happened.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What happened to the paper lamps during the incident?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "Did you perceive the event you are about to describe?"
-      },
-      {
-        "speaker": "A",
-        "text": "No; I was at a ferry terminal and learned nothing firsthand."
+        "text": "Someone deliberately damaged it before anyone else arrived."
       }
     ],
     "options": [
@@ -830,24 +646,16 @@
   {
     "id": "obj-0174",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. No other evidence identifies the speaker; the relevant statement’s hearsay status is resolved.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel wants to connect a recorded voice to a particular person. No other evidence identifies the speaker; assume there is no separate hearsay problem.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "Can you identify the voice discussing the paper lamps on this recording?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "How do you recognize the recorded speaker?"
-      },
-      {
-        "speaker": "A",
-        "text": "I do not; I have never heard that voice outside this recording about wet cartons of paper lamps."
+        "text": "No. This recording is the only time I have heard that voice."
       }
     ],
     "options": [
@@ -866,24 +674,16 @@
   {
     "id": "obj-0175",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. The appearance is relevant and the witness personally saw the depicted condition.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The photograph shows a condition that matters to the case. This witness personally saw that condition at the time.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "Does this photograph accurately show the paper lamps as you saw it?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "Does this image accurately show what you saw?"
-      },
-      {
-        "speaker": "A",
-        "text": "Yes; it fairly depicts wet cartons of paper lamps at the time I observed it."
+        "text": "Yes. That is how it looked when I was there."
       }
     ],
     "options": [
@@ -902,24 +702,16 @@
   {
     "id": "obj-0176",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. No expert inference is requested; counsel seeks a direct factual account.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The witness could neither see nor hear inside the enclosure and has no firsthand knowledge of what happened there. Counsel asks for an account of the events, not an expert opinion.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What happened to the paper lamps inside the enclosure?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What happened inside the locked enclosure?"
-      },
-      {
-        "speaker": "A",
-        "text": "I could neither see nor hear inside, but I will describe what happened to wet cartons of paper lamps."
+        "text": "Someone opened it and damaged it before leaving."
       }
     ],
     "options": [
@@ -938,24 +730,16 @@
   {
     "id": "obj-0177",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. The witness is offered only as a lay witness; no expert qualification or disclosure is made.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. This person is testifying as an ordinary witness. Counsel has not qualified them as an engineering expert.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What does your engineering calculation tell us about the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What does your technical stress calculation establish?"
-      },
-      {
-        "speaker": "A",
-        "text": "It identifies the precise failure mechanism of wet cartons of paper lamps."
+        "text": "It tells me exactly how it failed."
       }
     ],
     "options": [
@@ -974,24 +758,16 @@
   {
     "id": "obj-0178",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. The witness personally observed the behavior; sobriety is relevant and no medical diagnosis is offered.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The witness personally saw the person’s behavior, and whether that person was intoxicated matters to the case. No medical diagnosis is requested.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "How did the person handling the paper lamps seem to you?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "How did the person appear when you observed them?"
-      },
-      {
-        "speaker": "A",
-        "text": "They fumbled keys and slurred sentences; they seemed intoxicated."
+        "text": "They were stumbling and slurring their words. They seemed drunk."
       }
     ],
     "options": [
@@ -1010,24 +786,16 @@
   {
     "id": "obj-0179",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. The witness lacks clinical expertise and offers only a lay opinion.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The witness has no clinical training and has not been qualified as an expert. Counsel asks them to diagnose a psychiatric condition.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What psychiatric condition explains the person’s behavior around the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What psychiatric diagnosis explains that behavior?"
-      },
-      {
-        "speaker": "A",
-        "text": "I diagnose a clinical disorder based on the argument over wet cartons of paper lamps."
+        "text": "I believe they have a clinical personality disorder."
       }
     ],
     "options": [
@@ -1046,24 +814,16 @@
   {
     "id": "obj-0180",
     "difficulty": "hard",
-    "setting": "Federal delivery dispute trial. The data is admitted; the witness lacks scientific qualification and is offered only as a lay observer.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The laboratory results are already in evidence. This witness has no scientific training and has not been qualified to interpret them.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What do these laboratory results tell you about the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What does the laboratory spectrum establish?"
-      },
-      {
-        "speaker": "A",
-        "text": "It proves the chemical mechanism affecting wet cartons of paper lamps."
+        "text": "They prove which chemical reaction caused the damage."
       }
     ],
     "options": [
@@ -1082,24 +842,16 @@
   {
     "id": "obj-0181",
     "difficulty": "hard",
-    "setting": "Federal delivery dispute trial. The witness supplies no explanatory observation and merely dictates the legal outcome.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel asks the witness to choose the winner without offering any observation or explanation that would help the jury decide the facts.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "Who should win the lawsuit over the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "Who should win this case?"
-      },
-      {
-        "speaker": "A",
-        "text": "The party claiming damages for wet cartons of paper lamps should win."
+        "text": "The person asking for damages should win."
       }
     ],
     "options": [
@@ -1118,20 +870,12 @@
   {
     "id": "obj-0182",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. Direct examination of a cooperative adult on a disputed substantive fact; no leading exception applies.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel is questioning their own cooperative adult witness. The fact is disputed, and there is no special reason to suggest the answer in the question.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
-      },
-      {
-        "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "You saw the defendant damage wet cartons of paper lamps, correct?"
+        "text": "You saw the defendant interfere with the paper lamps, correct?"
       },
       {
         "speaker": "A",
@@ -1154,20 +898,12 @@
   {
     "id": "obj-0183",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. Cooperative adult witness on direct; visibility is disputed and no exception applies.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel is questioning their own cooperative adult witness about whether a warning could be seen. There is no special reason to suggest the answer.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
-      },
-      {
-        "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "The warning about wet cartons of paper lamps was plainly visible, wasn’t it?"
+        "text": "The warning beside the paper lamps was easy to see, wasn’t it?"
       },
       {
         "speaker": "A",
@@ -1190,20 +926,12 @@
   {
     "id": "obj-0184",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. Cross-examination within scope; the supported factual premise concerns the witness’s attention.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The other side is cross-examining this witness about where they were looking. There is evidence supporting the question’s factual premise.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
-      },
-      {
-        "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "You were looking at pressed leaves when the event occurred, correct?"
+        "text": "When the incident involving the paper lamps happened, you were looking the other way, correct?"
       },
       {
         "speaker": "A",
@@ -1226,20 +954,12 @@
   {
     "id": "obj-0185",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. Ordinary direct examination of a cooperative adult; no reason for leading is present.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel is questioning their own cooperative adult witness. There is no special reason to suggest the answer.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
-      },
-      {
-        "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "You never had permission to move wet cartons of paper lamps, did you?"
+        "text": "Nobody gave you permission to move the paper lamps, did they?"
       },
       {
         "speaker": "A",
@@ -1262,12 +982,12 @@
   {
     "id": "obj-0186",
     "difficulty": "hard",
-    "setting": "Federal delivery dispute trial. The original is available; no duplicate, exception, or opposing-party admission permits oral proof.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel wants to prove the document’s exact terms through oral testimony. The original is available, no copy is offered, and no exception or statement by an opposing party permits this substitute.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What exact obligation appears in the a shipping contract?"
+        "text": "What exactly does it say in the shipping contract?"
       },
       {
         "speaker": "A",
@@ -1290,12 +1010,12 @@
   {
     "id": "obj-0187",
     "difficulty": "hard",
-    "setting": "Federal delivery dispute trial. The original is available; no substitute or exception applies and hearsay is resolved.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel wants to prove the notice’s exact words through oral testimony. The original is available and no exception permits a substitute; assume there is no separate hearsay problem.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What exact words appeared on the disputed notice?"
+        "text": "What were the exact words on the notice about the paper lamps?"
       },
       {
         "speaker": "A",
@@ -1318,16 +1038,16 @@
   {
     "id": "obj-0188",
     "difficulty": "hard",
-    "setting": "Federal delivery dispute trial. The recording is available; no duplicate or exception authorizes oral proof.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The witness knows the event only from a video. Counsel offers their description to prove the video’s contents even though the recording is available and no exception permits a substitute.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What did the video show?"
+        "text": "What happened to the paper lamps in the video?"
       },
       {
         "speaker": "A",
-        "text": "I saw only the video; it showed that rain entered an unsealed freight container."
+        "text": "I was not there myself. In the video, rain entered an unsealed freight container."
       }
     ],
     "options": [
@@ -1346,24 +1066,16 @@
   {
     "id": "obj-0189",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. The court finds negligible additional value and an overwhelming risk of an improper emotional verdict.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The judge has found that the image adds almost nothing useful and creates a much greater risk that the jury will decide out of shock rather than the evidence.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "Does this enlarged photograph add anything about the paper lamps that the diagram does not show?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "Why display the gruesome enlargement again?"
-      },
-      {
-        "speaker": "A",
-        "text": "It adds nothing about wet cartons of paper lamps beyond the admitted clear diagram."
+        "text": "No. The diagram already shows that clearly."
       }
     ],
     "options": [
@@ -1382,24 +1094,16 @@
   {
     "id": "obj-0190",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. The court expressly finds slight contextual value substantially outweighed by unfair prejudice.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The judge has found that the image’s small amount of useful context is greatly outweighed by its risk of turning the jury against the defendant for an improper reason.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "Why put that unrelated photograph beside the exhibit about the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "Why place a shocking unrelated image next to this exhibit?"
-      },
-      {
-        "speaker": "A",
-        "text": "To make the defendant look frightening in the dispute over wet cartons of paper lamps."
+        "text": "It makes the defendant look frightening."
       }
     ],
     "options": [
@@ -1418,24 +1122,16 @@
   {
     "id": "obj-0191",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. Extent of injury is stipulated; the court finds negligible added value and overwhelming emotional danger.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Both sides agree on the extent of the injury. The judge has found that this image adds almost nothing useful and poses a much greater risk of an emotional verdict.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "Does this close-up add anything about the injury involving the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What useful information does the bloody close-up add?"
-      },
-      {
-        "speaker": "A",
-        "text": "None beyond the stipulated injury associated with wet cartons of paper lamps."
+        "text": "No. Both sides have already agreed on the extent of the injury."
       }
     ],
     "options": [
@@ -1454,24 +1150,16 @@
   {
     "id": "obj-0192",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. On cross, counsel substitutes an insult for a request for evidence.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The other side is cross-examining the witness. Counsel’s question attacks the witness rather than asking for facts.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "Why should anyone believe that ridiculous story of yours about the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "Why should anyone believe your ridiculous story about wet cartons of paper lamps?"
-      },
-      {
-        "speaker": "A",
-        "text": "I am trying to describe what I saw."
+        "text": "I am just telling you what I saw."
       }
     ],
     "options": [
@@ -1490,24 +1178,16 @@
   {
     "id": "obj-0193",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. Same examiner and fully answered question; no ambiguity, new evidence, or impeachment purpose.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The same lawyer has already received a clear answer to this exact question five times. Nothing new makes repeating it useful.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "I will ask again: was the paper lamps intact?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "For the sixth identical time, was wet cartons of paper lamps intact?"
-      },
-      {
-        "speaker": "A",
-        "text": "As I have already answered five times, yes."
+        "text": "Yes. That is the same answer I gave you the last five times."
       }
     ],
     "options": [
@@ -1526,24 +1206,16 @@
   {
     "id": "obj-0194",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. Counsel demands one yes-or-no answer to three separately disputed facts.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Three different facts are disputed. Counsel requires a single yes-or-no answer covering all three.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "Did you inspect the paper lamps, tell the owner, and repair it? Answer yes or no."
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "Did you inspect wet cartons of paper lamps, notify its owner, and repair it?"
-      },
-      {
-        "speaker": "A",
-        "text": "Yes to one of those, but not the others."
+        "text": "I did one of those things, but not the other two."
       }
     ],
     "options": [
@@ -1562,24 +1234,16 @@
   {
     "id": "obj-0195",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. No evidence or good-faith basis supports concealment; the question treats it as established.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. No evidence or good-faith basis suggests that the witness hid anything. Counsel’s question treats concealment as an established fact.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "When did you stop hiding the damage to the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "When did you stop concealing the damage to wet cartons of paper lamps?"
-      },
-      {
-        "speaker": "A",
-        "text": "I never concealed any damage."
+        "text": "I never hid any damage."
       }
     ],
     "options": [
@@ -1598,24 +1262,16 @@
   {
     "id": "obj-0196",
     "difficulty": "hard",
-    "setting": "Federal delivery dispute trial. Offered solely to show earlier negligence; no permitted alternative purpose applies.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel wants the jury to treat a safety improvement made after the incident as proof that the defendant was careless beforehand. No other permitted purpose is offered.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What safety measure was added for the paper lamps after the incident?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What precaution was installed after this incident?"
-      },
-      {
-        "speaker": "A",
-        "text": "A new protective device addressing wet cartons of paper lamps."
+        "text": "They installed a new protective device."
       }
     ],
     "options": [
@@ -1634,24 +1290,16 @@
   {
     "id": "obj-0197",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. A disputed civil claim was being negotiated; no permitted alternative purpose is offered.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The parties were negotiating a civil claim whose validity or amount they disputed. Counsel wants the settlement offer used as proof that the defendant was responsible.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "During settlement discussions about the paper lamps, what did the defendant offer?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "How much did the defendant offer during settlement talks?"
-      },
-      {
-        "speaker": "A",
-        "text": "Half the disputed demand concerning wet cartons of paper lamps."
+        "text": "Half of the amount we were asking for."
       }
     ],
     "options": [
@@ -1670,24 +1318,16 @@
   {
     "id": "obj-0198",
     "difficulty": "medium",
-    "setting": "Federal delivery dispute trial. Offered solely to establish negligence; no alternative permitted purpose applies.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. Counsel wants the jury to treat the existence of liability insurance as proof that the defendant acted carelessly. No other permitted purpose is offered.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "Was there liability insurance covering the incident with the paper lamps?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "Did liability insurance cover this incident?"
-      },
-      {
-        "speaker": "A",
-        "text": "Yes, the policy covered damage involving wet cartons of paper lamps."
+        "text": "Yes, there was."
       }
     ],
     "options": [
@@ -1706,24 +1346,16 @@
   {
     "id": "obj-0199",
     "difficulty": "hard",
-    "setting": "Federal delivery dispute trial. The offer alone is introduced solely to establish liability.",
+    "setting": "Federal delivery injury trial. A courier slipped on an unmarked wet floor. Counsel wants the jury to treat the defendant’s offer to cover medical bills as proof that the defendant caused the injury. The offer contains no separate admission of fault.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "After the courier’s fall, did the defendant offer to cover the injured person’s medical bills?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "Did the defendant offer to pay medical expenses?"
-      },
-      {
-        "speaker": "A",
-        "text": "Yes, after the incident involving wet cartons of paper lamps."
+        "text": "Yes. They offered to pay the hospital charges."
       }
     ],
     "options": [
@@ -1742,24 +1374,16 @@
   {
     "id": "obj-0200",
     "difficulty": "easy",
-    "setting": "Federal delivery dispute trial. Counsel requests direct factual testimony, not an expert inference.",
+    "setting": "Federal delivery dispute trial. Rain entered an unsealed freight container. The object remained completely covered while the witness was present. The witness has no other firsthand knowledge of its condition, but counsel asks what condition it was in.",
     "examiner": "defense counsel",
     "transcript": [
       {
         "speaker": "Q",
-        "text": "What event is this dispute about?"
+        "text": "What was the condition of the paper lamps beneath the covering?"
       },
       {
         "speaker": "A",
-        "text": "Rain entered an unsealed freight container."
-      },
-      {
-        "speaker": "Q",
-        "text": "What did you personally see beneath the covering?"
-      },
-      {
-        "speaker": "A",
-        "text": "Nothing; wet cartons of paper lamps remained hidden during my entire visit."
+        "text": "It was already badly damaged when I arrived."
       }
     ],
     "options": [

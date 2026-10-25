@@ -13,7 +13,15 @@ import { repository as db } from "./repository.js";
 import { randomBytes, createHash, createHmac } from "node:crypto";
 import fs from "node:fs";
 import { z } from "zod";
-import { loadContent, readSchedule, shuffle, rng, tags } from "./content.js";
+import {
+  loadContent,
+  loadBonusContent,
+  readBonusSchedule,
+  readSchedule,
+  shuffle,
+  rng,
+  tags,
+} from "./content.js";
 const app = express();
 app.use(
   cors({
@@ -52,8 +60,13 @@ app.use("/api", (req: any, res, next) => {
   req.player = id;
   next();
 });
-const bank = () =>
-  loadContent().filter(
+const bank = (mode = "daily") =>
+  (mode === "bonus"
+    ? loadBonusContent()
+    : mode.startsWith("practice:")
+      ? [...loadContent(), ...loadBonusContent()]
+      : loadContent()
+  ).filter(
     (x) =>
       x.reviewed ||
       (process.env.NODE_ENV !== "production" &&
@@ -112,7 +125,7 @@ function result(r: any) {
   };
 }
 function round(req: any, date: string, mode: string, tag?: string) {
-  const b = bank();
+  const b = bank(mode);
   let r = db.findDateRound(req.player, date, mode);
   if (!r) {
     let ids: string[];
@@ -120,7 +133,8 @@ function round(req: any, date: string, mode: string, tag?: string) {
       const past = new Set(
         Object.entries(readSchedule())
           .filter(([d]) => d < today())
-          .flatMap(([, v]) => v),
+          .flatMap(([, v]) => v)
+          .concat(Object.values(readBonusSchedule()).flat()),
       );
       ids = shuffle(
         b.filter((x) => x.concept_tag === tag && past.has(x.id)),
@@ -128,7 +142,8 @@ function round(req: any, date: string, mode: string, tag?: string) {
       )
         .slice(0, 5)
         .map((x) => x.id);
-    } else ids = readSchedule()[date];
+    } else
+      ids = (mode === "bonus" ? readBonusSchedule() : readSchedule())[date];
     if (!ids?.length || ids.some((id) => !b.some((x) => x.id === id)))
       throw fail("No reviewed docket available for this date", 404);
     r = {
@@ -161,7 +176,9 @@ function round(req: any, date: string, mode: string, tag?: string) {
   return {
     sessionId: r.id,
     date,
-    puzzleNumber: days(date, launch) + 1,
+    puzzleNumber:
+      mode === "bonus" ? Number(date.slice(-2)) : days(date, launch) + 1,
+    mode: mode === "bonus" ? "bonus" : mode,
     difficulty: avg >= 2.4 ? "Brutal" : avg < 1.6 ? "Gentle" : "Standard",
     questions,
     answers: JSON.parse(r.answers),
@@ -185,6 +202,25 @@ app.get("/api/archive", (req, res) => {
   if (date >= today()) throw fail("Only past dockets are available", 403);
   res.json(round(req, date, "archive"));
 });
+app.get("/api/bonus-archive/dates", (_req, res) => {
+  const eligible = new Set(bank("bonus").map((s) => s.id));
+  const dates = Object.entries(readBonusSchedule())
+    .filter(
+      ([date, ids]) =>
+        /^2026-10-(0[1-9]|[12][0-9]|3[01])$/.test(date) &&
+        ids.length === 5 &&
+        ids.every((id) => eligible.has(id)),
+    )
+    .map(([date]) => date)
+    .sort();
+  res.json({ dates });
+});
+app.get("/api/bonus-archive", (req, res) => {
+  const date = dateSchema.parse(req.query.date);
+  if (!/^2026-10-/.test(date) || !readBonusSchedule()[date])
+    throw fail("Bonus docket not found", 404);
+  res.json(round(req, date, "bonus"));
+});
 app.post("/api/practice", (req, res) => {
   const { tag } = z.object({ tag: z.enum(tags) }).parse(req.body);
   res.json(round(req, today(), "practice:" + token(), tag));
@@ -206,7 +242,7 @@ app.post("/api/answer", (req: any, res) => {
       throw fail("Answer order enforced; answers cannot be changed", 409);
     if (r.mode === "daily" && r.date !== today())
       throw fail("This daily docket has expired", 409);
-    const s = bank().find((x) => x.id === b.questionId);
+    const s = bank(r.mode).find((x) => x.id === b.questionId);
     if (!s || !s.options.includes(b.answer as any))
       throw fail("Invalid option");
     const f = {
@@ -305,18 +341,16 @@ app.get("/{*path}", (req, res, next) => {
   res.sendFile("index.html", { root: "dist" });
 });
 app.use((err: any, _req: any, res: any, _next: any) =>
-  res
-    .status(err instanceof z.ZodError ? 400 : err.status || 500)
-    .json({
-      error: {
-        message:
-          err instanceof z.ZodError
-            ? "Invalid request"
-            : err.status
-              ? err.message
-              : "Service unavailable",
-      },
-    }),
+  res.status(err instanceof z.ZodError ? 400 : err.status || 500).json({
+    error: {
+      message:
+        err instanceof z.ZodError
+          ? "Invalid request"
+          : err.status
+            ? err.message
+            : "Service unavailable",
+    },
+  }),
 );
 app.listen(Number(process.env.PORT || 3001), "0.0.0.0", () =>
   console.log("Objectle API listening"),

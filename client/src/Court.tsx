@@ -10,6 +10,7 @@ export default function Court({
       </div>
       <svg
         viewBox="0 0 900 340"
+        preserveAspectRatio="xMidYMax meet"
         role="img"
         aria-label="A friendly courtroom with a judge, opposing counsel, and a witness"
       >

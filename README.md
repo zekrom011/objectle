@@ -59,3 +59,15 @@ The source is backed up on the `main` branch at https://github.com/zekrom011/obj
 Verification of this rebuild: production bundle and TypeScript checks pass; 17 unit/API tests and 2 Chromium end-to-end tests pass. The 900-entry content bank is an unreviewed editorial draft. Structural uniqueness and correct distributions do not establish legal accuracy or substantive diversity. See the content audit before public release.
 
 Browser tests use `/usr/bin/chromium` in this cloud environment. On another system, set `CHROMIUM_PATH` to your installed Chromium executable before `npm run test:e2e`.
+
+## Courtroom interface and October bonus archive
+
+Gameplay places the case context, judge, counsel, witness, transcript, and responses in one courtroom view. Standard desktop and mobile layouts are tested for visibility before and after a ruling; small screens or enlarged text can scroll rather than clip controls.
+
+October 2026 has a separate bonus archive: 31 extra dockets with 155 new scenarios, open immediately from **Case files**. These dates are bonus labels, not access to future daily questions. Existing daily IDs and the 180-day schedule are preserved. Bonus play contributes to concept practice statistics but never streaks, career rank, or leaderboards. All additional content starts unreviewed and uses the same production approval gate.
+
+- `GET /api/bonus-archive/dates` lists available bonus dates.
+- `GET /api/bonus-archive?date=2026-10-31` opens that bonus docket with no answer leakage.
+- `npm run content:validate`, `content:report`, and `content:review` cover the extra bank as well as daily content.
+
+For an existing Windows ZIP installation, follow [the update guide](docs/updating-on-windows.md) to preserve settings and player data.

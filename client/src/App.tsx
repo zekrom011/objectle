@@ -74,6 +74,7 @@ const legal =
   "Educational game based on the Federal Rules of Evidence. Not legal advice. Rules vary by jurisdiction.";
 export default function App() {
   const [page, setPage] = useState("home"),
+    [sessionReady, setSessionReady] = useState(false),
     [today, setToday] = useState<Puzzle | null>(null),
     [puzzle, setPuzzle] = useState<Puzzle | null>(null),
     [stats, setStats] = useState<Stats>(() => stored("objectle-stats", {})),
@@ -84,6 +85,7 @@ export default function App() {
     [mode, setMode] = useState("daily"),
     [theme, setTheme] = useState(() => stored("objectle-theme", "light")),
     [archiveDate, setArchiveDate] = useState(""),
+    [bonusDates, setBonusDates] = useState<string[]>([]),
     [handle, setHandle] = useState(""),
     [token, setToken] = useState(""),
     [recovery, setRecovery] = useState(""),
@@ -110,14 +112,21 @@ export default function App() {
         if (p.result) setResult(p.result);
         refreshStats();
       })
-      .catch((e) => setError(e.message));
+      .catch((e) => setError(e.message))
+      .finally(() => setSessionReady(true));
   }, []);
   useEffect(() => {
-    if (page === "leaderboard" && today)
+    if (page === "leaderboard" && sessionReady)
       api<{ entries: any[] }>("leaderboard?type=" + boardType)
         .then((d) => setBoard(d.entries))
         .catch((e) => setError(e.message));
-  }, [page, boardType, today]);
+  }, [page, boardType, sessionReady]);
+  useEffect(() => {
+    if (page === "archive" && sessionReady)
+      api<{ dates: string[] }>("bonus-archive/dates")
+        .then((d) => setBonusDates(d.dates))
+        .catch((e) => setError(e.message));
+  }, [page, sessionReady]);
   useEffect(() => {
     if (!today) return;
     const tick = () => {
@@ -139,6 +148,7 @@ export default function App() {
     try {
       const p = await api<Puzzle>(path, body);
       setPuzzle(p);
+      if (nextMode === "daily") setToday(p);
       setMode(nextMode);
       setFeedback(
         !p.completed && p.answers.length
@@ -194,7 +204,7 @@ export default function App() {
       setBusy(false);
     }
   }
-  const share = `Objectle! #${puzzle?.puzzleNumber}\n${result?.grid || puzzle?.answers.map((a) => (a.correct ? "🟩" : "🟥")).join("")}\n${result?.title} · ${result?.score}/${puzzle?.questions.length || 5}\n${result?.streak || 0} day streak\n${location.origin}`;
+  const share = `Objectle! ${mode === "daily" ? "#" + puzzle?.puzzleNumber : mode + " · " + puzzle?.date}\n${result?.grid || puzzle?.answers.map((a) => (a.correct ? "🟩" : "🟥")).join("")}\n${result?.title} · ${result?.score}/${puzzle?.questions.length || 5}\n${result?.streak || 0} day streak\n${location.origin}`;
   async function copy() {
     try {
       await navigator.clipboard.writeText(share);
@@ -210,7 +220,7 @@ export default function App() {
         return;
       }
     }
-    setNotice("Result copied. Your objections stay between us.");
+    setNotice("Result copied.");
   }
   function image() {
     const c = document.createElement("canvas");
@@ -223,7 +233,11 @@ export default function App() {
     x.font = "bold 80px Georgia";
     x.fillText("Objectle!", 70, 120);
     x.font = "30px sans-serif";
-    x.fillText(`Docket #${puzzle?.puzzleNumber} · ${result?.title}`, 70, 190);
+    x.fillText(
+      `${mode === "daily" ? "Docket #" + puzzle?.puzzleNumber : mode + " · " + puzzle?.date} · ${result?.title}`,
+      70,
+      190,
+    );
     puzzle?.answers.forEach((a, i) => {
       x.fillStyle = a.correct ? "#397455" : "#ac5345";
       x.fillRect(70 + i * 105, 250, 85, 85);
@@ -251,29 +265,21 @@ export default function App() {
     ? feedback.correct
       ? feedback.correctOption === "No objection"
         ? "Correct. The testimony is admitted."
-        : "Sustained! A sound legal call."
-      : "Overruled. Let’s examine the rule."
+        : "Sustained."
+      : "Overruled."
     : "Counsel, you may proceed.";
   return (
-    <>
+    <div className={`courtroom page-${page}`}>
       <header className="header">
-        <a
-          className="brand"
-          href="#"
-          onClick={(e) => {
-            e.preventDefault();
-            setPage("home");
-          }}
-        >
+        <button className="brand" onClick={() => setPage("home")}>
           Objectle<span>!</span>
-          <small>THE DAILY COURTROOM GAME</small>
-        </a>
+        </button>
+        <span className="room-number">COURTROOM 01</span>
         <nav aria-label="Main navigation">
-          <button onClick={() => setPage("archive")}>Archive</button>
+          <button onClick={() => setPage("archive")}>Case files</button>
           <button onClick={() => setPage("leaderboard")}>Leaderboard</button>
           <button onClick={() => setPage("about")}>About</button>
           <button
-            className="theme"
             aria-label="Toggle dark mode"
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
           >
@@ -282,13 +288,6 @@ export default function App() {
         </nav>
       </header>
       <main>
-        <div className="edition">
-          <span>FIVE MOMENTS. ONE SHARP MIND.</span>
-          <span>
-            {today?.date || "THE DAILY DOCKET"} <b>•</b> VOL.{" "}
-            {today?.puzzleNumber || "01"}
-          </span>
-        </div>
         {error && (
           <div className="error" role="alert">
             {error}
@@ -297,172 +296,146 @@ export default function App() {
             </button>
           </div>
         )}
-        {page === "home" && (
-          <>
-            <section className="intro">
-              <div className="eyebrow">ALL RISE. IT’S YOUR TURN.</div>
-              <h1>
-                A little courtroom drama.
-                <br />
-                <em>A sharper legal mind.</em>
-              </h1>
-              <p>
-                Five moments on the stand. Five calls to make.
-                <br />
-                Would your objection hold up in court?
-              </p>
-            </section>
-            <Court />
-            <section className="docket">
-              <div>
-                <span className="eyebrow">TODAY’S DOCKET</span>
-                <h2>The court is yours.</h2>
-                <p>About 3 minutes · A fresh challenge every day</p>
-              </div>
-              <span className="badge">
-                ⚖ {today?.difficulty || "Daily challenge"}
-              </span>
-              <button
-                className="primary"
-                disabled={!today || busy}
-                onClick={() => load("today", "daily")}
-              >
-                {today?.completed
-                  ? "View today’s verdict"
-                  : today?.answers.length
-                    ? "Resume today's docket"
-                    : "Play today's docket"}{" "}
-                <span>↗</span>
-              </button>
-              {today?.completed && (
-                <p className="countdown">
-                  {today.result?.title} · {today.result?.score}/5 · Next docket:{" "}
-                  {remaining}
-                </p>
-              )}
-            </section>
-            <section className="stats-row">
-              <div>
-                <strong>
-                  {stats.streak || 0}
-                  <span>🔥</span>
-                </strong>
-                <small>CURRENT STREAK</small>
-              </div>
-              <div>
-                <strong>{stats.longestStreak || 0}</strong>
-                <small>LONGEST STREAK</small>
-              </div>
-              <div>
-                <strong>{stats.careerRank || "New counsel"}</strong>
-                <small>CAREER RANK</small>
-              </div>
-            </section>
-            <section className="how">
-              <h2>Make your case.</h2>
-              <div>
-                <article>
-                  <b>01</b>
-                  <h3>Hear the testimony</h3>
-                  <p>
-                    A bite-sized moment from a fictional trial. Read between the
-                    lines.
-                  </p>
-                </article>
-                <article>
-                  <b>02</b>
-                  <h3>Make the call</h3>
-                  <p>
-                    Pick the right objection. Sometimes, the smart move is no
-                    objection.
-                  </p>
-                </article>
-                <article>
-                  <b>03</b>
-                  <h3>Learn the ruling</h3>
-                  <p>
-                    Get the why, the rule, and a little more confidence for your
-                    next case.
-                  </p>
-                </article>
-              </div>
-            </section>
-          </>
-        )}
-        {page === "game" && puzzle && question && (
-          <>
-            <div className="game-heading">
-              <div>
-                <span className="eyebrow">
-                  {mode.toUpperCase()} DOCKET #{puzzle.puzzleNumber}
+        {(page === "home" || page === "game") && (
+          <div className="hearing">
+            <section className="case-context" aria-label="Case context">
+              <div className="case-meta">
+                <span>
+                  {page === "home"
+                    ? "ALL RISE"
+                    : mode === "bonus archive"
+                      ? "OCTOBER BONUS ARCHIVE"
+                      : `${mode.toUpperCase()} DOCKET`}
                 </span>
-                <h1>Make your objection.</h1>
+                <span>
+                  {page === "game"
+                    ? `${index + 1} of ${puzzle?.questions.length}`
+                    : today?.date || "Loading today's docket…"}
+                </span>
               </div>
-              <strong>
-                {index + 1} <span>/ {puzzle.questions.length}</span>
-              </strong>
-            </div>
-            <div
-              className="progress"
-              aria-label={`Question ${index + 1} of ${puzzle.questions.length}`}
-            >
-              {puzzle.questions.map((q, i) => (
-                <span
-                  key={q.id}
-                  className={i < index ? "done" : i === index ? "current" : ""}
-                />
-              ))}
-            </div>
-            <Court ruling={ruling} />
-            <section className="question">
-              <span className="eyebrow">
-                {question.examiner} addresses the witness
-              </span>
-              <h2>{question.setting}</h2>
-              <div className="transcript">
-                {question.transcript.map((l, i) => (
-                  <p key={i}>
-                    <b>{l.speaker}.</b>
-                    <span>{l.text}</span>
+              {page === "game" && question ? (
+                <>
+                  <h1>Before the court</h1>
+                  <p>{question.setting}</p>
+                </>
+              ) : (
+                <>
+                  <h1>
+                    {today?.completed
+                      ? "Today's court is adjourned."
+                      : "Court is in session."}
+                  </h1>
+                  <p>
+                    Listen to the witness. Choose an objection—or let the
+                    testimony stand.
                   </p>
-                ))}
-              </div>
-              <div className="options" aria-label="Choose your objection">
-                {question.options.map((o, i) => (
-                  <button
-                    key={o}
-                    disabled={busy || !!feedback}
-                    onClick={() => answer(o)}
-                    className={feedback?.correctOption === o ? "correct" : ""}
-                  >
-                    <span>{String.fromCharCode(65 + i)}</span>
-                    {o}
-                  </button>
-                ))}
-              </div>
-              {feedback && (
-                <div
-                  className={`feedback ${feedback.correct ? "success" : "miss"}`}
-                  role="status"
-                >
-                  <span className="eyebrow">
-                    THE JUDGE’S RULING · {feedback.rule}
-                  </span>
-                  <h3>{ruling}</h3>
-                  <p>{feedback.explanation}</p>
-                  <p className="trap">
-                    Watch for the trap: {feedback.trap_note}
-                  </p>
-                  <button className="primary" disabled={busy} onClick={next}>
-                    {puzzle.answers.length === puzzle.questions.length
-                      ? "See my verdict"
-                      : "Next question"}{" "}
-                    →
-                  </button>
-                </div>
+                </>
               )}
             </section>
-          </>
+            <Court
+              ruling={
+                page === "game"
+                  ? ruling
+                  : "All rise. Counsel, take your places."
+              }
+            />
+            {page === "home" ? (
+              <section className="counsel-desk home-desk">
+                <div className="docket-label">
+                  <span className="eyebrow">
+                    TODAY'S DOCKET · {today?.difficulty || "…"}
+                  </span>
+                  <p>
+                    Five questions · {stats.streak || 0} day streak · Best{" "}
+                    {stats.longestStreak || 0}
+                  </p>
+                </div>
+                <button
+                  className="primary"
+                  disabled={!today || busy}
+                  onClick={() => load("today", "daily")}
+                >
+                  {today?.completed
+                    ? "View today’s verdict"
+                    : today?.answers.length
+                      ? "Resume today's docket"
+                      : "Play today's docket"}
+                </button>
+                <button
+                  className="archive-home"
+                  onClick={() => setPage("archive")}
+                >
+                  Open October case files <span>31 bonus dockets</span>
+                </button>
+                {today?.completed && (
+                  <p className="countdown">
+                    {today.result?.score}/5 · Next docket: {remaining}
+                  </p>
+                )}
+              </section>
+            ) : (
+              question &&
+              puzzle && (
+                <section className="counsel-desk question">
+                  <div className="record">
+                    <div className="eyebrow">
+                      COURT TRANSCRIPT <span>{question.examiner}</span>
+                    </div>
+                    <div className="transcript">
+                      {question.transcript.map((l, i) => (
+                        <p key={i}>
+                          <b>{l.speaker === "Q" ? "Counsel" : "Witness"}</b>
+                          <span>{l.text}</span>
+                        </p>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="decision">
+                    <div className="eyebrow">YOUR RESPONSE</div>
+                    <div className="options" aria-label="Choose your objection">
+                      {question.options.map((o, i) => (
+                        <button
+                          key={o}
+                          disabled={busy || !!feedback}
+                          onClick={() => answer(o)}
+                          className={
+                            feedback?.correctOption === o ? "correct" : ""
+                          }
+                        >
+                          <span>{String.fromCharCode(65 + i)}</span>
+                          {o}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                  {feedback && (
+                    <div
+                      className={`feedback ${feedback.correct ? "success" : "miss"}`}
+                      role="status"
+                    >
+                      <div>
+                        <strong>
+                          {ruling} <small>{feedback.rule}</small>
+                        </strong>
+                        <p>{feedback.explanation}</p>
+                        <p className="trap">{feedback.trap_note}</p>
+                      </div>
+                      <button
+                        className="primary"
+                        disabled={busy}
+                        onClick={next}
+                      >
+                        {puzzle.answers.length === puzzle.questions.length
+                          ? "See my verdict"
+                          : "Next question"}{" "}
+                        →
+                      </button>
+                    </div>
+                  )}
+                </section>
+              )
+            )}
+          </div>
         )}
         {page === "results" && result && (
           <section className="panel results">
@@ -476,7 +449,7 @@ export default function App() {
               {result.score}
               <span> / {puzzle?.questions.length || 5}</span>
             </div>
-            <p>Every ruling is a chance to sharpen your instincts.</p>
+            <p>The docket is complete.</p>
             <div
               className="grid"
               aria-label={`${result.score} correct answers`}
@@ -548,9 +521,33 @@ export default function App() {
             <span className="eyebrow">THE CASE FILES</span>
             <h1>Reopen a past docket.</h1>
             <p>
-              Practice your judgment. Archive play builds your evidence notebook
-              without changing your streak, career rank, or leaderboard.
+              Archive play adds to your concept statistics without changing your
+              streak, career rank, or leaderboard.
             </p>
+            <h2>October 2026 · Bonus case files</h2>
+            <p>
+              31 extra dockets, open from day one. These cases are separate from
+              the daily game and do not affect your streak or leaderboard.
+            </p>
+            <div className="archive-grid">
+              {Array.from({ length: 31 }, (_, i) => {
+                const date = `2026-10-${String(i + 1).padStart(2, "0")}`;
+                return (
+                  <button
+                    key={date}
+                    disabled={busy || !bonusDates.includes(date)}
+                    onClick={() =>
+                      load("bonus-archive?date=" + date, "bonus archive")
+                    }
+                    aria-label={`Play bonus docket October ${i + 1}`}
+                  >
+                    {i + 1}
+                    <small>OCT</small>
+                  </button>
+                );
+              })}
+            </div>
+            <h2>Past daily dockets</h2>
             <form
               onSubmit={(e) => {
                 e.preventDefault();
@@ -567,7 +564,7 @@ export default function App() {
                   onChange={(e) => setArchiveDate(e.target.value)}
                 />
               </label>
-              <button className="primary" disabled={busy || !today}>
+              <button className="primary" disabled={busy || !sessionReady}>
                 Open docket
               </button>
             </form>
@@ -576,7 +573,7 @@ export default function App() {
         {page === "leaderboard" && (
           <section className="panel">
             <span className="eyebrow">THE HONOR ROLL</span>
-            <h1>Counsel of distinction.</h1>
+            <h1>Leaderboard</h1>
             <label>
               Rank by
               <select
@@ -644,7 +641,7 @@ export default function App() {
                   autoComplete="nickname"
                 />
               </label>
-              <button className="primary" disabled={busy || !today}>
+              <button className="primary" disabled={busy || !sessionReady}>
                 Create handle
               </button>
             </form>
@@ -685,7 +682,7 @@ export default function App() {
                     required
                   />
                 </label>
-                <button disabled={busy || !today}>Restore handle</button>
+                <button disabled={busy || !sessionReady}>Restore handle</button>
               </form>
             </details>
             <p role="status">{notice}</p>
@@ -694,7 +691,7 @@ export default function App() {
         {page === "about" && (
           <section className="panel">
             <span className="eyebrow">BEHIND THE BENCH</span>
-            <h1>A daily exercise in good judgment.</h1>
+            <h1>About Objectle</h1>
             <p>
               Objectle turns the Federal Rules of Evidence into five short
               courtroom moments. It’s made for curious minds, future lawyers,
@@ -716,12 +713,9 @@ export default function App() {
         )}
       </main>
       <footer>
-        <a className="footer-logo" href="#" onClick={() => setPage("home")}>
-          Objectle!
-        </a>
-        <p>{legal}</p>
-        <span>A little wiser. One objection at a time.</span>
+        <span>{legal}</span>
+        <button onClick={() => setPage("about")}>Court information</button>
       </footer>
-    </>
+    </div>
   );
 }

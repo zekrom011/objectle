@@ -1,0 +1,870 @@
+[
+  {
+    "id": "bonus-0094",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns a stolen camera. The defendant has offered no character evidence, and the prosecutor offers an unrelated past theft solely to suggest the defendant steals whenever possible.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the defendant do at your shop three years ago?"
+      },
+      {
+        "speaker": "A",
+        "text": "He took a watch without paying."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(b)(1)",
+    "explanation": "The earlier theft is offered only to prove a propensity to steal and conduct in accordance with it.",
+    "trap_note": "A prior act needs a permitted nonpropensity purpose, not just similarity in wrongdoing.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0095",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns an alleged assault outside a diner. The defendant has not placed character in issue; the prosecutor offers general violent reputation to prove the charged act.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What is the defendant's reputation for peacefulness?"
+      },
+      {
+        "speaker": "A",
+        "text": "People around our block call him a fighter."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(a)(1)",
+    "explanation": "The prosecution cannot use general violent character simply to prove the defendant committed this assault.",
+    "trap_note": "A reputation format does not make an otherwise forbidden propensity use permissible.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0096",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns whether a driver ran a stop sign. Counsel offers a neighbor's account of the driver's general carelessness solely to prove careless driving on this occasion.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What sort of person is the driver around the neighborhood?"
+      },
+      {
+        "speaker": "A",
+        "text": "Careless. He never seems to pay attention."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(a)(1)",
+    "explanation": "General character for carelessness is not admissible to prove conduct on this particular occasion.",
+    "trap_note": "A broad character description is different from a specific, regular habit.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0097",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a disputed loan payment. Counsel offers the borrower's unrelated dishonesty solely to show the borrower must have withheld this payment.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How honest is the borrower in everyday life?"
+      },
+      {
+        "speaker": "A",
+        "text": "I wouldn't trust her with anything."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(a)(1)",
+    "explanation": "The opinion is offered as forbidden character-to-conduct proof rather than proper witness impeachment.",
+    "trap_note": "Character evidence has limited permitted uses; this question does not establish one.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0098",
+    "difficulty": "hard",
+    "setting": "A criminal trial concerns a forged ticket. The defendant has offered no character evidence, and the prosecution offers an unrelated lie solely to prove a dishonest disposition.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Did the defendant ever lie about winning a competition?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes. He claimed he won when he hadn't even entered."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(b)(1)",
+    "explanation": "The unrelated lie is offered only to suggest dishonest character and therefore guilt.",
+    "trap_note": "Calling an act dishonest does not supply a proper nonpropensity purpose.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0099",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns damage to a hired canoe. Counsel offers the renter's general recklessness to establish that he caused this particular damage.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How would you describe the renter's personality?"
+      },
+      {
+        "speaker": "A",
+        "text": "He's reckless about everything."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(a)(1)",
+    "explanation": "General recklessness cannot ordinarily prove conduct in a particular civil incident.",
+    "trap_note": "This broad personality judgment is not evidence of a specific repeated habit.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0100",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns an alleged arson. The defendant has not offered character evidence, and the prosecutor offers an unrelated act of cruelty solely to make guilt seem likely.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the defendant do to a neighbor's garden years ago?"
+      },
+      {
+        "speaker": "A",
+        "text": "He tore up the flowers for no reason."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(b)(1)",
+    "explanation": "The unrelated act is offered only to portray bad character and infer criminal conduct.",
+    "trap_note": "Disapproval of a person's past behavior is not a permitted substitute for proof of the charged offense.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0101",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a disputed sale of a bicycle. Counsel offers the seller's reputation for greed solely to prove that she overcharged this buyer.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What is the seller's reputation where you live?"
+      },
+      {
+        "speaker": "A",
+        "text": "People say she's greedy."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(a)(1)",
+    "explanation": "Greedy character is offered to infer conduct in the particular transaction.",
+    "trap_note": "A reputation witness still needs a legally permissible character issue.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0102",
+    "difficulty": "hard",
+    "setting": "A criminal trial concerns a warehouse break-in. The prosecutor offers a past trespass solely to suggest the defendant is the sort of person who enters property unlawfully.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Have you seen the defendant trespass before?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, he climbed into a closed swimming pool one summer."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(b)(1)",
+    "explanation": "The prior trespass is used only as propensity proof.",
+    "trap_note": "Prior acts can have permitted uses, but merely showing a tendency to trespass is not one.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0103",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a bus collision. Counsel offers the driver's general impatience solely to prove that he rushed through the junction.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How patient is the driver in ordinary conversations?"
+      },
+      {
+        "speaker": "A",
+        "text": "Not at all. He always wants people to hurry up."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(a)(1)",
+    "explanation": "A general personality trait cannot ordinarily prove conduct in this civil accident.",
+    "trap_note": "Conversational impatience is not a specific routine response to a driving situation.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0104",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns an alleged robbery. The prosecutor offers an unrelated school disciplinary incident solely to portray the defendant as a troublemaker.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Was the defendant punished for disrupting class years ago?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, for throwing paper across the room."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(b)(1)",
+    "explanation": "The school incident is offered only to invite a bad-character inference.",
+    "trap_note": "Being a past troublemaker does not prove a charged robbery.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0105",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns whether a tenant damaged a door. Counsel offers a witness's broad view that the tenant is destructive, rather than evidence about the door.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What kind of person is the tenant?"
+      },
+      {
+        "speaker": "A",
+        "text": "Someone who ruins things wherever he goes."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(a)(1)",
+    "explanation": "The testimony uses general character to infer conduct on the disputed occasion.",
+    "trap_note": "A sweeping description is not evidence of what happened to this door.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0106",
+    "difficulty": "hard",
+    "setting": "A criminal trial concerns a false expense claim. The prosecution offers an unrelated gambling habit solely to argue that the defendant is morally untrustworthy.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Does the defendant spend money at card games?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, most weekends."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(a)(1)",
+    "explanation": "The offered moral-character inference is not a proper basis for proving this false claim.",
+    "trap_note": "Disfavored personal activities do not establish guilt through character alone.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0107",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a missed contractual deadline. Counsel offers the supplier's general laziness solely to prove nonperformance.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What is the supplier like as a person?"
+      },
+      {
+        "speaker": "A",
+        "text": "Lazy. He never wants to do anything."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(a)(1)",
+    "explanation": "General laziness is used to infer conduct in this particular transaction.",
+    "trap_note": "The question asks for character, not observations of the work at issue.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0108",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns a stolen laptop. The defendant has offered no character evidence, and the prosecutor presents a general opinion that the defendant is a thief.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What is your opinion of the defendant's character?"
+      },
+      {
+        "speaker": "A",
+        "text": "He's a thief at heart."
+      }
+    ],
+    "options": [
+      "Improper character evidence",
+      "Hearsay",
+      "Authentication",
+      "No objection"
+    ],
+    "correct": "Improper character evidence",
+    "rule": "FRE 404(a)(1)",
+    "explanation": "The prosecution is using a character opinion to prove the charged theft.",
+    "trap_note": "An opinion label does not avoid the restriction on propensity evidence.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0109",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns damage to an industrial motor. An untrained office clerk offers a technical diagnosis based only on looking at its casing.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What engineering defect caused the motor to fail?"
+      },
+      {
+        "speaker": "A",
+        "text": "The rotor must have had a torsional resonance problem."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Improper lay opinion",
+    "rule": "FRE 701(c)",
+    "explanation": "The technical engineering diagnosis requires specialized knowledge beyond permissible lay opinion.",
+    "trap_note": "A witness's personal view of the casing does not qualify a technical diagnosis.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0110",
+    "difficulty": "hard",
+    "setting": "A criminal trial concerns a questioned signature. A witness with no handwriting expertise or prior familiarity offers a forensic conclusion from comparing specimens in court.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What does your comparison prove?"
+      },
+      {
+        "speaker": "A",
+        "text": "The pressure patterns prove the defendant forged it."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Improper lay opinion",
+    "rule": "FRE 701(c)",
+    "explanation": "The proposed forensic analysis depends on specialized knowledge rather than ordinary perception.",
+    "trap_note": "Looking at two samples does not automatically qualify a witness to give expert handwriting analysis.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0111",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns an illness after chemical exposure. A lay coworker offers a medical diagnosis from seeing the claimant cough.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What disease did that cough show?"
+      },
+      {
+        "speaker": "A",
+        "text": "It was definitely chemical pneumonitis."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Improper lay opinion",
+    "rule": "FRE 701(c)",
+    "explanation": "A medical diagnosis requires specialized knowledge beyond the coworker's lay observations.",
+    "trap_note": "The witness can describe the cough without diagnosing its medical cause.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0112",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns a cracked foundation. A neighbor with no engineering training assigns a technical structural cause after seeing the crack.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Why did the foundation fail?"
+      },
+      {
+        "speaker": "A",
+        "text": "Differential soil consolidation exceeded the footing's design tolerance."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Improper lay opinion",
+    "rule": "FRE 701(c)",
+    "explanation": "The explanation relies on specialized structural and soil analysis.",
+    "trap_note": "Seeing a crack permits a description, not an unsupported engineering diagnosis.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0113",
+    "difficulty": "hard",
+    "setting": "A criminal trial concerns an unknown powder. An untrained witness identifies its chemical composition solely from its color.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What chemical was in the bag?"
+      },
+      {
+        "speaker": "A",
+        "text": "It was fentanyl. I could tell because it was white."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Improper lay opinion",
+    "rule": "FRE 701(c)",
+    "explanation": "Identifying chemical composition here requires specialized knowledge rather than an ordinary visual impression.",
+    "trap_note": "The witness may describe the appearance without supplying an unsupported chemical identification.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0114",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns a failed computer server. A receptionist with no technical background diagnoses the underlying software fault from a blank screen.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What caused the outage?"
+      },
+      {
+        "speaker": "A",
+        "text": "A race condition in the database's transaction manager."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Improper lay opinion",
+    "rule": "FRE 701(c)",
+    "explanation": "The software diagnosis rests on specialized knowledge beyond the witness's perception.",
+    "trap_note": "Observing a blank screen does not establish the technical mechanism behind it.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0115",
+    "difficulty": "hard",
+    "setting": "A criminal trial concerns a firearm discharge. A lay witness offers a ballistics reconstruction from a hole in a wall without relevant expertise.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What angle did the bullet enter at?"
+      },
+      {
+        "speaker": "A",
+        "text": "Exactly seventeen degrees downward, based on the hole's shape."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Improper lay opinion",
+    "rule": "FRE 701(c)",
+    "explanation": "The precise trajectory analysis requires specialized ballistics knowledge.",
+    "trap_note": "The witness can describe the hole without calculating an expert trajectory.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0116",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns spoiled medicine. An untrained delivery worker offers a pharmacological conclusion after seeing a package sit in sunlight.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did the sunlight do to the medicine?"
+      },
+      {
+        "speaker": "A",
+        "text": "It broke the active molecule into a toxic compound."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Improper lay opinion",
+    "rule": "FRE 701(c)",
+    "explanation": "The molecular conclusion requires specialized scientific knowledge.",
+    "trap_note": "A firsthand observation of sunlight does not establish its chemical effects.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0117",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns a damaged antique clock. A witness with no appraisal experience offers a valuation based on technical rarity classifications.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What is the clock worth?"
+      },
+      {
+        "speaker": "A",
+        "text": "Forty thousand dollars because its escapement belongs to a rare transitional series."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Improper lay opinion",
+    "rule": "FRE 701(c)",
+    "explanation": "This appraisal relies on specialized knowledge not established for the lay witness.",
+    "trap_note": "An opinion grounded in technical classification is not ordinary lay perception.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0118",
+    "difficulty": "hard",
+    "setting": "A criminal trial concerns a broken lock. A neighbor without locksmith expertise identifies a specific tool from microscopic markings.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What tool made those marks?"
+      },
+      {
+        "speaker": "A",
+        "text": "A six-pin tubular pick, definitely."
+      }
+    ],
+    "options": [
+      "Improper lay opinion",
+      "Hearsay",
+      "Leading question",
+      "No objection"
+    ],
+    "correct": "Improper lay opinion",
+    "rule": "FRE 701(c)",
+    "explanation": "The specialized tool-mark identification exceeds the witness's ordinary observations.",
+    "trap_note": "Describing visible scratches is different from identifying their technical source.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0119",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a speeding van. A witness watched it pass nearby and gives an ordinary estimate based on years of seeing traffic.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How fast did it seem to be going?"
+      },
+      {
+        "speaker": "A",
+        "text": "Around forty miles an hour. Much faster than the other cars on that street."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 701(a)-(b)",
+    "explanation": "An ordinary speed estimate based on firsthand observation can be helpful lay opinion.",
+    "trap_note": "Not every numerical estimate requires expert testimony.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0120",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a visibly intoxicated guest. A server describes an impression grounded in slurred speech and unsteady movement she personally observed.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How did the guest seem when he stood up?"
+      },
+      {
+        "speaker": "A",
+        "text": "Drunk. He was slurring and had to hold the table to stay upright."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 701(a)-(b)",
+    "explanation": "The impression is grounded in ordinary firsthand observations and helps describe the guest's condition.",
+    "trap_note": "A lay witness may describe apparent intoxication without a laboratory diagnosis.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0121",
+    "difficulty": "hard",
+    "setting": "A criminal trial concerns an assault. The defendant properly offers a character witness's opinion about the defendant's pertinent trait of peacefulness.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "From knowing the defendant, what is your opinion of his peacefulness?"
+      },
+      {
+        "speaker": "A",
+        "text": "He's a peaceful person. I've known him for twelve years."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 404(a)(2)(A)",
+    "explanation": "A criminal defendant may offer evidence of a pertinent character trait.",
+    "trap_note": "The prohibition on propensity evidence has a specific exception for a defendant's pertinent trait.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0122",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns a witness whose truthfulness has been attacked. A qualified reputation witness is called to support that witness's character for truthfulness.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What is her reputation for telling the truth in your community?"
+      },
+      {
+        "speaker": "A",
+        "text": "She's known as someone who tells the truth, even when it's awkward."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 608(a)",
+    "explanation": "Truthful-character reputation may be offered after the witness's character for truthfulness has been attacked.",
+    "trap_note": "Supporting truthful character is limited, but the required attack has occurred here.",
+    "concept_tag": "character",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0123",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns an employer's routine mail handling. A longtime clerk describes a specific, consistent response to every registered letter rather than a broad personality trait.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What happened each time a registered letter arrived?"
+      },
+      {
+        "speaker": "A",
+        "text": "I stamped it, entered its number in the ledger, and put it in the locked tray."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 406",
+    "explanation": "A specific, regular routine may support an inference that the procedure was followed on the occasion at issue.",
+    "trap_note": "Habit or routine practice differs from a broad character trait such as carefulness.",
+    "concept_tag": "other",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0124",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a damaged bicycle. Its owner gives an ordinary description of how it rode immediately after the collision based on personally riding it.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How did the bicycle feel when you tried to ride home?"
+      },
+      {
+        "speaker": "A",
+        "text": "The front wheel wobbled so badly that I had to walk it."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 701(a)-(b)",
+    "explanation": "The description is a helpful impression grounded in the owner's direct experience.",
+    "trap_note": "The witness is describing operation, not offering an engineering diagnosis.",
+    "concept_tag": "opinion",
+    "reviewed": false
+  }
+]

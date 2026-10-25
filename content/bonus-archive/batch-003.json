@@ -1,0 +1,870 @@
+[
+  {
+    "id": "bonus-0063",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a broken display window. The witness was in a different town and learned nothing through any admissible source; counsel asks for her own account of the impact.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What struck the window that night?"
+      },
+      {
+        "speaker": "A",
+        "text": "I wasn't there. I suppose it was a thrown stone."
+      }
+    ],
+    "options": [
+      "Lack of personal knowledge",
+      "Hearsay",
+      "Improper character evidence",
+      "No objection"
+    ],
+    "correct": "Lack of personal knowledge",
+    "rule": "FRE 602",
+    "explanation": "The witness has no firsthand basis for describing what struck the window.",
+    "trap_note": "A plausible guess does not supply personal knowledge.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0064",
+    "difficulty": "easy",
+    "setting": "A criminal trial concerns a missing safe. The witness was asleep throughout the removal and did not see anyone enter the building.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Who carried the safe out?"
+      },
+      {
+        "speaker": "A",
+        "text": "I couldn't see anything; I was asleep upstairs."
+      }
+    ],
+    "options": [
+      "Lack of personal knowledge",
+      "Hearsay",
+      "Improper character evidence",
+      "No objection"
+    ],
+    "correct": "Lack of personal knowledge",
+    "rule": "FRE 602",
+    "explanation": "The witness cannot identify a person she did not perceive.",
+    "trap_note": "Being in the building does not establish knowledge of everything that happened there.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0065",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a damaged boat engine. The witness never opened the engine or watched anyone inspect it and has no technical expertise.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Which internal part had snapped?"
+      },
+      {
+        "speaker": "A",
+        "text": "I don't know. I've never seen the inside of it."
+      }
+    ],
+    "options": [
+      "Lack of personal knowledge",
+      "Hearsay",
+      "Improper character evidence",
+      "No objection"
+    ],
+    "correct": "Lack of personal knowledge",
+    "rule": "FRE 602",
+    "explanation": "The witness lacks a firsthand basis for identifying the internal damage.",
+    "trap_note": "Owning a boat does not establish personal knowledge of unseen engine parts.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0066",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a disputed delivery. The receptionist left before the courier arrived and never saw the parcel.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Was the parcel already torn when it arrived?"
+      },
+      {
+        "speaker": "A",
+        "text": "I had gone home by then, so I didn't see it."
+      }
+    ],
+    "options": [
+      "Lack of personal knowledge",
+      "Hearsay",
+      "Improper character evidence",
+      "No objection"
+    ],
+    "correct": "Lack of personal knowledge",
+    "rule": "FRE 602",
+    "explanation": "The witness did not observe the parcel's arrival or condition.",
+    "trap_note": "Working at the delivery address does not supply knowledge of an event missed.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0067",
+    "difficulty": "easy",
+    "setting": "A criminal trial concerns a cash-box theft. A witness could see only the closed shop door and not the room where the box was kept.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What was happening inside the office?"
+      },
+      {
+        "speaker": "A",
+        "text": "I couldn't see inside. The door was shut."
+      }
+    ],
+    "options": [
+      "Lack of personal knowledge",
+      "Hearsay",
+      "Improper character evidence",
+      "No objection"
+    ],
+    "correct": "Lack of personal knowledge",
+    "rule": "FRE 602",
+    "explanation": "The witness cannot describe unseen events inside the office.",
+    "trap_note": "A nearby vantage point is insufficient when it provides no view of the event.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0068",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a loose roof panel. The witness never visited the roof and is asked whether a particular screw was missing.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Was the corner screw in place that morning?"
+      },
+      {
+        "speaker": "A",
+        "text": "I never went up there, so I couldn't tell you."
+      }
+    ],
+    "options": [
+      "Lack of personal knowledge",
+      "Hearsay",
+      "Improper character evidence",
+      "No objection"
+    ],
+    "correct": "Lack of personal knowledge",
+    "rule": "FRE 602",
+    "explanation": "There is no personal observation supporting the proposed testimony about the screw.",
+    "trap_note": "Familiarity with the building does not establish knowledge of its unseen roof hardware.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0069",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a damaged parcel. The witness saw the unopened box but never saw its contents before delivery.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Was the vase cracked before it was packed?"
+      },
+      {
+        "speaker": "A",
+        "text": "I only saw the sealed box. I didn't see the vase."
+      }
+    ],
+    "options": [
+      "Lack of personal knowledge",
+      "Hearsay",
+      "Improper character evidence",
+      "No objection"
+    ],
+    "correct": "Lack of personal knowledge",
+    "rule": "FRE 602",
+    "explanation": "Seeing the sealed package does not establish knowledge of the vase's earlier condition.",
+    "trap_note": "Observation of a container is not observation of its contents.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0070",
+    "difficulty": "easy",
+    "setting": "A criminal trial concerns a disputed telephone call. The witness was not present, did not hear the call, and has no recording.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What words did the caller use?"
+      },
+      {
+        "speaker": "A",
+        "text": "I didn't hear the call myself."
+      }
+    ],
+    "options": [
+      "Lack of personal knowledge",
+      "Hearsay",
+      "Improper character evidence",
+      "No objection"
+    ],
+    "correct": "Lack of personal knowledge",
+    "rule": "FRE 602",
+    "explanation": "The witness lacks a firsthand basis for recounting words she never heard.",
+    "trap_note": "Knowing the participants does not supply knowledge of their conversation.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0071",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a driver's view at a junction. The witness was facing away when the vehicles approached.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Which signal was showing as the van entered?"
+      },
+      {
+        "speaker": "A",
+        "text": "My back was to the lights then."
+      }
+    ],
+    "options": [
+      "Lack of personal knowledge",
+      "Hearsay",
+      "Improper character evidence",
+      "No objection"
+    ],
+    "correct": "Lack of personal knowledge",
+    "rule": "FRE 602",
+    "explanation": "The witness did not perceive the signal at the relevant time.",
+    "trap_note": "Knowing the junction's layout does not establish which light was showing.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0072",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns disputed damage to a rented violin. The witness first saw it after the rental ended and is asked about its earlier condition.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Was that crack there before the rental began?"
+      },
+      {
+        "speaker": "A",
+        "text": "I didn't see the violin until it came back."
+      }
+    ],
+    "options": [
+      "Lack of personal knowledge",
+      "Hearsay",
+      "Improper character evidence",
+      "No objection"
+    ],
+    "correct": "Lack of personal knowledge",
+    "rule": "FRE 602",
+    "explanation": "The witness's later observation cannot establish the earlier condition without another proper basis.",
+    "trap_note": "Personal knowledge of one time does not automatically extend to another.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0073",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns an alleged threatening email. Counsel offers a printout found on a public bench, and nobody can identify its sender, account, or origin.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How do you know this email came from the defendant?"
+      },
+      {
+        "speaker": "A",
+        "text": "I don't. I just found the printout outside."
+      }
+    ],
+    "options": [
+      "Authentication",
+      "Hearsay",
+      "Best evidence rule",
+      "No objection"
+    ],
+    "correct": "Authentication",
+    "rule": "FRE 901(a)",
+    "explanation": "No evidence connects the printout to the defendant as claimed.",
+    "trap_note": "Readable text does not by itself authenticate its purported author.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0074",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a disputed photograph of a damaged fence. The witness has never visited the location and knows nothing about the photograph's source.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Does this accurately show the fence involved in this case?"
+      },
+      {
+        "speaker": "A",
+        "text": "I couldn't say. I've never seen that fence."
+      }
+    ],
+    "options": [
+      "Authentication",
+      "Hearsay",
+      "Best evidence rule",
+      "No objection"
+    ],
+    "correct": "Authentication",
+    "rule": "FRE 901(a)",
+    "explanation": "The offered photograph lacks evidence that it depicts the claimed fence.",
+    "trap_note": "A photograph need not be authenticated by its photographer, but some adequate identifying basis is required.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0075",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns an alleged recorded confession. The recording's origin is unknown, and the witness does not recognize the voice.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Whose voice is on this recording?"
+      },
+      {
+        "speaker": "A",
+        "text": "I don't recognize it, and I don't know where the file came from."
+      }
+    ],
+    "options": [
+      "Authentication",
+      "Hearsay",
+      "Best evidence rule",
+      "No objection"
+    ],
+    "correct": "Authentication",
+    "rule": "FRE 901(a)",
+    "explanation": "Nothing establishes that the recording contains the defendant's voice as claimed.",
+    "trap_note": "The words on a recording do not alone prove who spoke them.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0076",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a disputed text agreement. The witness offers an unexplained screenshot without knowing either number or having any identifying context.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How do you connect this screenshot to the seller?"
+      },
+      {
+        "speaker": "A",
+        "text": "I can't. Someone left it on my desk."
+      }
+    ],
+    "options": [
+      "Authentication",
+      "Hearsay",
+      "Best evidence rule",
+      "No objection"
+    ],
+    "correct": "Authentication",
+    "rule": "FRE 901(a)",
+    "explanation": "The screenshot lacks evidence linking it to the seller or alleged exchange.",
+    "trap_note": "Digital material needs authentication just as paper evidence does.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0077",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns a knife allegedly recovered from a locker. The witness presents a similar knife but cannot identify where it came from or connect it to the search.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Is this the knife recovered from that locker?"
+      },
+      {
+        "speaker": "A",
+        "text": "I don't know. It was in a box with several others."
+      }
+    ],
+    "options": [
+      "Authentication",
+      "Hearsay",
+      "Best evidence rule",
+      "No objection"
+    ],
+    "correct": "Authentication",
+    "rule": "FRE 901(a)",
+    "explanation": "No evidence identifies this knife as the item allegedly recovered.",
+    "trap_note": "Similarity alone may be insufficient when there is no identifying connection to the event.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0078",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns a warehouse temperature chart. The proponent cannot identify the instrument, location, or process that produced the chart.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What recorded these temperatures?"
+      },
+      {
+        "speaker": "A",
+        "text": "I don't know which sensor it was or where it was installed."
+      }
+    ],
+    "options": [
+      "Authentication",
+      "Hearsay",
+      "Best evidence rule",
+      "No objection"
+    ],
+    "correct": "Authentication",
+    "rule": "FRE 901(a)",
+    "explanation": "The proponent has not shown that the chart measures the claimed warehouse conditions.",
+    "trap_note": "Numbers on a chart need a reliable connection to what they supposedly represent.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0079",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns a purported online advertisement. The only witness cannot identify the webpage, seller, or date and offers an unexplained image.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Where did you obtain this image?"
+      },
+      {
+        "speaker": "A",
+        "text": "I can't remember. I don't know whose listing it was."
+      }
+    ],
+    "options": [
+      "Authentication",
+      "Hearsay",
+      "Best evidence rule",
+      "No objection"
+    ],
+    "correct": "Authentication",
+    "rule": "FRE 901(a)",
+    "explanation": "The image has not been connected to the claimed advertisement.",
+    "trap_note": "An online-looking layout does not establish a document's source.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0080",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns the exact cancellation clause in an available signed contract. Counsel offers a witness's memory of its wording instead of the contract, with no basis for dispensing with it.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What exactly did the cancellation clause say?"
+      },
+      {
+        "speaker": "A",
+        "text": "I remember it said you had to give thirty days' notice."
+      }
+    ],
+    "options": [
+      "Best evidence rule",
+      "Authentication",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Best evidence rule",
+    "rule": "FRE 1002",
+    "explanation": "Proving the contract's wording generally requires the original or an admissible substitute.",
+    "trap_note": "A witness's accurate memory alone does not remove the rule when the writing's contents are being proved.",
+    "concept_tag": "best-evidence",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0081",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns the precise amount written on an available receipt. No loss or other exception is claimed, and counsel asks for oral proof of the receipt's text.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What amount was printed on that receipt?"
+      },
+      {
+        "speaker": "A",
+        "text": "It said nine hundred and forty dollars."
+      }
+    ],
+    "options": [
+      "Best evidence rule",
+      "Authentication",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Best evidence rule",
+    "rule": "FRE 1002",
+    "explanation": "The receipt or an admissible substitute is required to prove its written amount.",
+    "trap_note": "The issue is the document's contents, not merely a transaction the witness independently remembers.",
+    "concept_tag": "best-evidence",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0082",
+    "difficulty": "hard",
+    "setting": "A criminal trial concerns the exact words in an available recorded message. The prosecution offers only a listener's recollection, without any basis for dispensing with the recording.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Repeat the words on the recording."
+      },
+      {
+        "speaker": "A",
+        "text": "It said, \"Leave the package behind the station.\""
+      }
+    ],
+    "options": [
+      "Best evidence rule",
+      "Authentication",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Best evidence rule",
+    "rule": "FRE 1002",
+    "explanation": "The recording or an admissible substitute is generally needed to prove its contents.",
+    "trap_note": "Hearing a recording firsthand does not automatically permit oral proof of its contents.",
+    "concept_tag": "best-evidence",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0083",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns whether an available map labels a strip as a public lane. The witness is asked to recount the label rather than offer the map or a permitted substitute.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What label appears on that strip of the map?"
+      },
+      {
+        "speaker": "A",
+        "text": "It says \"Public lane\" in small letters."
+      }
+    ],
+    "options": [
+      "Best evidence rule",
+      "Authentication",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Best evidence rule",
+    "rule": "FRE 1002",
+    "explanation": "The map's contents should be proved by the original or an admissible substitute.",
+    "trap_note": "The dispute concerns what the map says, not the witness's independent observation of the land.",
+    "concept_tag": "best-evidence",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0084",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns the exact warranty period in an available brochure. The proponent offers oral recollection only and establishes no exception.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How long did the brochure promise coverage?"
+      },
+      {
+        "speaker": "A",
+        "text": "It said five years, as I remember it."
+      }
+    ],
+    "options": [
+      "Best evidence rule",
+      "Authentication",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Best evidence rule",
+    "rule": "FRE 1002",
+    "explanation": "The brochure or an admissible substitute is needed to prove the written promise.",
+    "trap_note": "A witness may describe independent events, but this question asks for the writing's contents.",
+    "concept_tag": "best-evidence",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0085",
+    "difficulty": "hard",
+    "setting": "A criminal trial concerns the exact image shown in an available security video. Counsel asks a viewer to describe that image instead of offering the video, without establishing an exception.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did frame twenty-three show?"
+      },
+      {
+        "speaker": "A",
+        "text": "A hand holding a folded note beside the till."
+      }
+    ],
+    "options": [
+      "Best evidence rule",
+      "Authentication",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Best evidence rule",
+    "rule": "FRE 1002",
+    "explanation": "The video or an admissible substitute is generally required to prove the image it contains.",
+    "trap_note": "The witness observed the video rather than the underlying event itself.",
+    "concept_tag": "best-evidence",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0086",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns the precise date typed into an available lease amendment. Counsel offers a witness's recollection instead of the document, with no exception established.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What date was typed beside the signature?"
+      },
+      {
+        "speaker": "A",
+        "text": "The first of September."
+      }
+    ],
+    "options": [
+      "Best evidence rule",
+      "Authentication",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Best evidence rule",
+    "rule": "FRE 1002",
+    "explanation": "The amendment or an admissible substitute is needed to establish its written date.",
+    "trap_note": "The rule addresses proof of document contents even when the witness personally read them.",
+    "concept_tag": "best-evidence",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0087",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns an available recording's exact spoken price. A witness remembers listening to it but did not attend the negotiation.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What price did the recording state?"
+      },
+      {
+        "speaker": "A",
+        "text": "The speaker said twelve thousand dollars."
+      }
+    ],
+    "options": [
+      "Best evidence rule",
+      "Authentication",
+      "Hearsay",
+      "No objection"
+    ],
+    "correct": "Best evidence rule",
+    "rule": "FRE 1002",
+    "explanation": "Proof of the recording's contents calls for the recording or an admissible substitute.",
+    "trap_note": "The witness has no independent account of the negotiation to offer instead.",
+    "concept_tag": "best-evidence",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0088",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a collision beside a bakery. The witness personally saw the impact and is asked to describe it, although a video also exists.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did you see when the van turned?"
+      },
+      {
+        "speaker": "A",
+        "text": "Its rear corner caught the parked bicycle and knocked it onto the pavement."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 1002",
+    "explanation": "The witness may describe an event personally observed without producing a video of it.",
+    "trap_note": "The best-evidence rule applies to proving a recording's contents, not every event that happened to be recorded.",
+    "concept_tag": "best-evidence",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0089",
+    "difficulty": "medium",
+    "setting": "A civil trial concerns a photographed crack in a wall. The tenant recognizes the room and confirms the photograph accurately depicts what she saw.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Does this picture fairly show the wall that morning?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes. That's the crack beside my kitchen window, just as I saw it."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 901(b)(1)",
+    "explanation": "A witness with knowledge can authenticate a photograph as an accurate depiction.",
+    "trap_note": "The authenticating witness need not have taken the photograph.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0090",
+    "difficulty": "medium",
+    "setting": "A criminal trial concerns a recorded voice. A longtime colleague recognizes the speaker from years of ordinary conversation, and no other objection is at issue.",
+    "examiner": "prosecutor",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "How do you recognize that voice?"
+      },
+      {
+        "speaker": "A",
+        "text": "I've worked beside Imani for six years. That's how she sounds every day."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 901(b)(5)",
+    "explanation": "Familiarity acquired through ordinary conversation can support identification of a recorded voice.",
+    "trap_note": "Voice identification does not always require a forensic expert.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0091",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns the contents of a signed agreement. An accurate photocopy is offered, with no genuine authenticity dispute or unfairness in using it.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "Is this a complete copy of the signed agreement?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes. I copied every page directly from the signed original."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 1003",
+    "explanation": "An accurate duplicate is ordinarily admissible unless authenticity or fairness creates a genuine issue.",
+    "trap_note": "The best-evidence rule does not categorically require the one physical original.",
+    "concept_tag": "best-evidence",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0092",
+    "difficulty": "hard",
+    "setting": "A civil trial concerns a missing receipt destroyed accidentally in a house fire. The proponent did not act in bad faith, and an eyewitness recalls the receipt's contents.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What amount did you see on the receipt before the fire?"
+      },
+      {
+        "speaker": "A",
+        "text": "It showed a payment of two hundred dollars."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 1004(a)",
+    "explanation": "Other evidence of contents is permitted when originals are destroyed without bad faith.",
+    "trap_note": "The original-writing requirement has an exception for innocent loss or destruction.",
+    "concept_tag": "best-evidence",
+    "reviewed": false
+  },
+  {
+    "id": "bonus-0093",
+    "difficulty": "easy",
+    "setting": "A civil trial concerns a cashier's actions. The witness stood beside the till and describes what she personally observed.",
+    "examiner": "plaintiff's counsel",
+    "transcript": [
+      {
+        "speaker": "Q",
+        "text": "What did you see the cashier do with the envelope?"
+      },
+      {
+        "speaker": "A",
+        "text": "She opened it, counted the notes, and put them in the drawer."
+      }
+    ],
+    "options": [
+      "No objection",
+      "Hearsay",
+      "Lack of personal knowledge",
+      "Relevance"
+    ],
+    "correct": "No objection",
+    "rule": "FRE 602",
+    "explanation": "The witness has a direct observational basis for describing the cashier's conduct.",
+    "trap_note": "A witness does not need an expert qualification to describe an ordinary event personally seen.",
+    "concept_tag": "foundation",
+    "reviewed": false
+  }
+]
